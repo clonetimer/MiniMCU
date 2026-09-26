@@ -1,0 +1,100 @@
+Internal ctest changing into directory: /mnt/data/MiniMCU_Implementation_build_v1
+UpdateCTestConfiguration  from :/mnt/data/MiniMCU_Implementation_build_v1/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/mnt/data/MiniMCU_Implementation_build_v1/DartConfiguration.tcl
+Test project /mnt/data/MiniMCU_Implementation_build_v1
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 8
+    Start 8: linux_driver_compile
+
+8: Test command: /opt/pyvenv/bin/python3 "/mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/scripts/build_modules.py"
+8: Working Directory: /mnt/data/MiniMCU_Implementation_build_v1
+8: Test timeout computed to be: 180
+8: make: Entering directory '/usr/src/linux-headers-6.12.96+deb13-amd64'
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l01_hello.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l02_chardev.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l03_platform.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l04_mmio.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l05_gpiochip.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l06_ioctl.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l07_irq.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l08_timer.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l09_uart.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l10_i2c.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l11_spi.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l12_dma.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l14_debugfs.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/src/l15_integrated.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l01_hello.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l02_chardev.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l03_platform.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l04_mmio.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l05_gpiochip.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l06_ioctl.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l07_irq.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l08_timer.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l09_uart.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l10_i2c.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l11_spi.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l12_dma.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l14_debugfs.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l15_integrated.o
+8:   MODPOST /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/Module.symvers
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l01_hello.mod.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/.module-common.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l02_chardev.mod.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l03_platform.mod.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l04_mmio.mod.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l05_gpiochip.mod.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l06_ioctl.mod.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l07_irq.mod.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l08_timer.mod.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l09_uart.mod.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l10_i2c.mod.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l11_spi.mod.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l12_dma.mod.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l14_debugfs.mod.o
+8:   CC [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l15_integrated.mod.o
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l01_hello.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l01_hello.ko
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l02_chardev.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l02_chardev.ko
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l03_platform.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l03_platform.ko
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l04_mmio.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l04_mmio.ko
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l05_gpiochip.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l05_gpiochip.ko
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l06_ioctl.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l06_ioctl.ko
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l07_irq.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l07_irq.ko
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l08_timer.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l08_timer.ko
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l09_uart.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l09_uart.ko
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l10_i2c.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l10_i2c.ko
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l11_spi.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l11_spi.ko
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l12_dma.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l12_dma.ko
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l14_debugfs.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l14_debugfs.ko
+8:   LD [M]  /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l15_integrated.ko
+8:   BTF [M] /mnt/data/MiniMCU_Implementation_source_v1/linux_drivers/l15_integrated.ko
+8: make: Leaving directory '/usr/src/linux-headers-6.12.96+deb13-amd64'
+8: [INFO] KDIR = /usr/src/linux-headers-6.12.96+deb13-amd64
+8: [PASS] Linux modules compiled: 14 using linux-headers-6.12.96+deb13-amd64
+1/1 Test #8: linux_driver_compile .............   Passed    5.50 sec
+
+The following tests passed:
+	linux_driver_compile
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   5.50 sec

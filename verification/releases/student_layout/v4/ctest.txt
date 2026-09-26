@@ -1,0 +1,136 @@
+Internal ctest changing into directory: /mnt/data/build_student_v4_labs
+Test project /mnt/data/build_student_v4_labs
+      Start  1: regressions
+ 1/65 Test  #1: regressions ......................   Passed    0.00 sec
+      Start  2: firmware_timer_interrupt
+ 2/65 Test  #2: firmware_timer_interrupt .........   Passed    0.03 sec
+      Start  3: repo_hygiene
+ 3/65 Test  #3: repo_hygiene .....................   Passed    0.58 sec
+      Start  4: student_layout
+ 4/65 Test  #4: student_layout ...................   Passed    0.69 sec
+      Start  5: firmware_peripherals
+ 5/65 Test  #5: firmware_peripherals .............   Passed    0.05 sec
+      Start  6: 01_gpio_rw32
+ 6/65 Test  #6: 01_gpio_rw32 .....................   Passed    0.00 sec
+      Start  7: 02_ram_rw32
+ 7/65 Test  #7: 02_ram_rw32 ......................   Passed    0.00 sec
+      Start  8: 03_bus_rw
+ 8/65 Test  #8: 03_bus_rw ........................   Passed    0.00 sec
+      Start  9: 04_rom_rw
+ 9/65 Test  #9: 04_rom_rw ........................   Passed    0.00 sec
+      Start 10: 05_cpu_fetch
+10/65 Test #10: 05_cpu_fetch .....................   Passed    0.00 sec
+      Start 11: 06_cpu_addi
+11/65 Test #11: 06_cpu_addi ......................   Passed    0.00 sec
+      Start 12: 07_cpu_decode_refactor
+12/65 Test #12: 07_cpu_decode_refactor ...........   Passed    0.00 sec
+      Start 13: 08_cpu_op_imm
+13/65 Test #13: 08_cpu_op_imm ....................   Passed    0.00 sec
+      Start 14: 09_cpu_op
+14/65 Test #14: 09_cpu_op ........................   Passed    0.00 sec
+      Start 15: 10_cpu_lui_auipc
+15/65 Test #15: 10_cpu_lui_auipc .................   Passed    0.00 sec
+      Start 16: 11_cpu_load
+16/65 Test #16: 11_cpu_load ......................   Passed    0.00 sec
+      Start 17: 12_cpu_store
+17/65 Test #17: 12_cpu_store .....................   Passed    0.00 sec
+      Start 18: 13_cpu_branch
+18/65 Test #18: 13_cpu_branch ....................   Passed    0.00 sec
+      Start 19: 14_cpu_jump
+19/65 Test #19: 14_cpu_jump ......................   Passed    0.00 sec
+      Start 20: 15_cpu_rv32i_system
+20/65 Test #20: 15_cpu_rv32i_system ..............   Passed    0.00 sec
+      Start 21: 16_cpu_rv32i_complete
+21/65 Test #21: 16_cpu_rv32i_complete ............   Passed    0.00 sec
+      Start 22: 17_elf_loader
+22/65 Test #22: 17_elf_loader ....................   Passed    0.00 sec
+      Start 23: 18_baremetal_c
+23/65 Test #23: 18_baremetal_c ...................   Passed    0.02 sec
+      Start 24: 19_cpu_mmio_gpio
+24/65 Test #24: 19_cpu_mmio_gpio .................   Passed    0.00 sec
+      Start 25: 20_event_scheduler
+25/65 Test #25: 20_event_scheduler ...............   Passed    0.00 sec
+      Start 26: 21_clock_reset
+26/65 Test #26: 21_clock_reset ...................   Passed    0.00 sec
+      Start 27: 22_zicsr
+27/65 Test #27: 22_zicsr .........................   Passed    0.00 sec
+      Start 28: 23_exception_trap
+28/65 Test #28: 23_exception_trap ................   Passed    0.00 sec
+      Start 29: 24_machine_timer
+29/65 Test #29: 24_machine_timer .................   Passed    0.00 sec
+      Start 30: 25_interrupt
+30/65 Test #30: 25_interrupt .....................   Passed    0.00 sec
+      Start 31: 26_interrupt_controller
+31/65 Test #31: 26_interrupt_controller ..........   Passed    0.00 sec
+      Start 32: 27_uart
+32/65 Test #32: 27_uart ..........................   Passed    0.00 sec
+      Start 33: 28_uart_terminal
+33/65 Test #33: 28_uart_terminal .................   Passed    0.00 sec
+      Start 34: 29_spi_controller
+34/65 Test #34: 29_spi_controller ................   Passed    0.00 sec
+      Start 35: 30_spi_bus
+35/65 Test #35: 30_spi_bus .......................   Passed    0.00 sec
+      Start 36: 31_spi_flash
+36/65 Test #36: 31_spi_flash .....................   Passed    0.00 sec
+      Start 37: 32_i2c_controller
+37/65 Test #37: 32_i2c_controller ................   Passed    0.00 sec
+      Start 38: 33_i2c_bus
+38/65 Test #38: 33_i2c_bus .......................   Passed    0.00 sec
+      Start 39: 34_i2c_sensor
+39/65 Test #39: 34_i2c_sensor ....................   Passed    0.00 sec
+      Start 40: 35_gpio_interrupt
+40/65 Test #40: 35_gpio_interrupt ................   Passed    0.00 sec
+      Start 41: 36_general_timer
+41/65 Test #41: 36_general_timer .................   Passed    0.00 sec
+      Start 42: 38_dma_mem2mem
+42/65 Test #42: 38_dma_mem2mem ...................   Passed    0.00 sec
+      Start 43: 39_dma_peripheral
+43/65 Test #43: 39_dma_peripheral ................   Passed    0.00 sec
+      Start 44: 40_spi_imu
+44/65 Test #44: 40_spi_imu .......................   Passed    0.00 sec
+      Start 45: 41_i2c_eeprom
+45/65 Test #45: 41_i2c_eeprom ....................   Passed    0.00 sec
+      Start 46: 42_adc
+46/65 Test #46: 42_adc ...........................   Passed    0.00 sec
+      Start 47: 46_virtual_chips
+47/65 Test #47: 46_virtual_chips .................   Passed    0.00 sec
+      Start 48: 46_fault_injection
+48/65 Test #48: 46_fault_injection ...............   Passed    0.00 sec
+      Start 49: protocol_track_regression
+49/65 Test #49: protocol_track_regression ........   Passed    0.00 sec
+      Start 50: 47_can_controller
+50/65 Test #50: 47_can_controller ................   Passed    0.00 sec
+      Start 51: 48_can_bus
+51/65 Test #51: 48_can_bus .......................   Passed    0.00 sec
+      Start 52: can_lab_01_error_confinement
+52/65 Test #52: can_lab_01_error_confinement .....   Passed    0.00 sec
+      Start 53: can_lab_02_bus_off_recovery
+53/65 Test #53: can_lab_02_bus_off_recovery ......   Passed    0.00 sec
+      Start 54: 49_rs485
+54/65 Test #54: 49_rs485 .........................   Passed    0.00 sec
+      Start 55: 50_modbus_rtu
+55/65 Test #55: 50_modbus_rtu ....................   Passed    0.00 sec
+      Start 56: modbus_lab_01_timeout_retry
+56/65 Test #56: modbus_lab_01_timeout_retry ......   Passed    0.00 sec
+      Start 57: modbus_lab_02_crc_noise
+57/65 Test #57: modbus_lab_02_crc_noise ..........   Passed    0.00 sec
+      Start 58: 51_onewire
+58/65 Test #58: 51_onewire .......................   Passed    0.00 sec
+      Start 59: 52_onewire_device
+59/65 Test #59: 52_onewire_device ................   Passed    0.00 sec
+      Start 60: onewire_lab_01_search_tree
+60/65 Test #60: onewire_lab_01_search_tree .......   Passed    0.00 sec
+      Start 61: onewire_lab_02_parasite_power
+61/65 Test #61: onewire_lab_02_parasite_power ....   Passed    0.00 sec
+      Start 62: 53_i2s
+62/65 Test #62: 53_i2s ...........................   Passed    0.00 sec
+      Start 63: 54_i2s_audio
+63/65 Test #63: 54_i2s_audio .....................   Passed    0.00 sec
+      Start 64: i2s_lab_01_dma_streaming
+64/65 Test #64: i2s_lab_01_dma_streaming .........   Passed    0.00 sec
+      Start 65: i2s_lab_02_clock_drift
+65/65 Test #65: i2s_lab_02_clock_drift ...........   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 65
+
+Total Test time (real) =   1.49 sec

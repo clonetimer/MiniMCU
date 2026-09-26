@@ -1,0 +1,3 @@
+Bank B v2 candidate -> boot failure -> rejected
+rollback -> Bank A v1 confirmed
+[PASS] C03 dual-bank rollback

@@ -1,0 +1,5 @@
+Default root configuration: MINICPU_BUILD_PROTOCOL_TRACK=OFF
+CTest count:
+Total Tests: 48
+Protocol targets visible in default build:
+none

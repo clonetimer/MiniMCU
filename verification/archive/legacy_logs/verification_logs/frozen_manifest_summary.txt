@@ -1,0 +1,2 @@
+V1 source manifest entries checked: 672
+SHA-256 failures: 0

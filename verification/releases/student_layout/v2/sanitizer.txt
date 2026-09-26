@@ -1,0 +1,7 @@
+Configuration: Debug + MINICPU_SANITIZERS=ON
+Sanitizers: AddressSanitizer + UndefinedBehaviorSanitizer
+Targets: stage47 stage48 stage49 stage50 stage51 stage52 stage53 stage54 protocol_track_test
+Result: PASS
+Protocol chapter tests: 8/8 PASS
+protocol_track_regression: PASS
+Sanitizer diagnostics: 0 observed

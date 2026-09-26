@@ -1,0 +1,9 @@
+Baseline: MiniMCU Student Layout V1
+Checked pre-existing behavior/source files with extensions:
+  .cpp .hpp .c .h .S .s .sv .v
+Files checked: 201
+Changed: 0
+Missing: 0
+Result: PASS
+
+Student Layout V2 changes CMake/docs/layout validation and adds new 47-54 protocol sources; it does not alter pre-existing V1 behavior sources.

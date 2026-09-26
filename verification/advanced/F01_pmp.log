@@ -1,0 +1,3 @@
+ROM: R-X, RAM: RW-, MMIO: default deny
+ROM write -> DENY; RAM write -> ALLOW
+[PASS] F01 PMP policy

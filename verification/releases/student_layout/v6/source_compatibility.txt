@@ -1,0 +1,12 @@
+Student Layout V5 -> V6 behavior-source compatibility
+
+Roots checked:
+core, course, tests, firmware, demos, extensions, rtl, advanced, fpga,
+dsp, linux_drivers, implementation, integrations, cmake, third_party,
+reference, v2
+
+Files checked: 606
+Changed: 0
+Missing: 0
+
+Result: PASS

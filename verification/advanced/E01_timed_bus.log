@@ -1,0 +1,3 @@
+ROM fetch wait=0, RAM load wait=3
+total_wait_states=3 x2=0xdeadbeef
+[PASS] E01 timed bus

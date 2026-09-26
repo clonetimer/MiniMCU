@@ -1,0 +1,13 @@
+#ifndef MINICPU_RISCV_CHIP_EXTENSIONS_H
+#define MINICPU_RISCV_CHIP_EXTENSIONS_H
+#define portasmHAS_MTIME 1
+#define portasmHAS_SIFIVE_CLINT 0
+#define portasmADDITIONAL_CONTEXT_SIZE 0
+#define portasmHANDLE_INTERRUPT freertos_risc_v_application_interrupt_handler
+#ifdef __ASSEMBLER__
+.macro portasmSAVE_ADDITIONAL_REGISTERS
+.endm
+.macro portasmRESTORE_ADDITIONAL_REGISTERS
+.endm
+#endif
+#endif

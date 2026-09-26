@@ -1,0 +1,12 @@
+{
+  "freertos": {
+    "status": "UNVERIFIED_MISSING_DEPENDENCY",
+    "requested_kernel": "FreeRTOS-Kernel V11.2.0",
+    "reason": "No FreeRTOS kernel source is present in the sandbox and outbound Git access is blocked."
+  },
+  "systemc": {
+    "status": "UNVERIFIED_MISSING_DEPENDENCY",
+    "requested_version": "SystemC 3.0.1",
+    "reason": "No SystemC installation/source is present in the sandbox and outbound Git access is blocked."
+  }
+}

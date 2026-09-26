@@ -1,0 +1,2 @@
+GCC -Werror warnings: 0
+Clang strict conversion warnings: 0

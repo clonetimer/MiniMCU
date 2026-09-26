@@ -1,0 +1,3 @@
+magic=MMCU version=7 size=128 CRC32=0xdd0bbe78
+corrupt byte[31] -> REJECT
+[PASS] C02 boot image validation

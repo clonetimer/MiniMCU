@@ -1,0 +1,19 @@
+# Build artifacts
+build/
+out/
+obj/
+*.o
+*.elf
+*.hex
+*.map
+
+# Simulation / caches
+.cache/
+.cache_*/
+__pycache__/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

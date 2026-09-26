@@ -1,0 +1,193 @@
+[
+  {
+    "id": "R01",
+    "slug": "R01_clock_reset",
+    "title": "时钟、复位与时序逻辑",
+    "summary": "从组合逻辑进入时钟驱动状态，理解异步拉低/同步释放复位。",
+    "sources": [
+      "rtl/advanced/clock_reset_sync.sv"
+    ],
+    "nodes": [
+      "Clock",
+      "Reset synchronizer",
+      "State register",
+      "Waveform"
+    ]
+  },
+  {
+    "id": "R02",
+    "slug": "R02_gpio_rtl",
+    "title": "GPIO RTL",
+    "summary": "把 Core Stage 01 的 DIR/OUTPUT/SET/CLEAR/PIN 语义实现为时序 RTL。",
+    "sources": [
+      "rtl/peripherals/gpio.sv"
+    ],
+    "nodes": [
+      "MMIO request",
+      "GPIO registers",
+      "Direction mux",
+      "Pins"
+    ]
+  },
+  {
+    "id": "R03",
+    "slug": "R03_memory_rtl",
+    "title": "RAM / ROM RTL",
+    "summary": "理解 byte strobe、小端序、同步写和 ROM 初始化。",
+    "sources": [
+      "rtl/memory/simple_ram.sv",
+      "rtl/memory/simple_rom.sv"
+    ],
+    "nodes": [
+      "Bus request",
+      "Byte strobes",
+      "Memory array",
+      "Read response"
+    ]
+  },
+  {
+    "id": "R04",
+    "slug": "R04_handshake",
+    "title": "Ready / Valid 与 Wait State",
+    "summary": "把功能访问扩展为带等待周期的硬件握手。",
+    "sources": [
+      "rtl/advanced/wait_state_target.sv"
+    ],
+    "nodes": [
+      "Request valid",
+      "Latch request",
+      "Wait counter",
+      "Response ready"
+    ]
+  },
+  {
+    "id": "R05",
+    "slug": "R05_interconnect",
+    "title": "地址译码与仲裁",
+    "summary": "理解地址译码与多 Master round-robin 仲裁之间的职责边界。",
+    "sources": [
+      "rtl/bus/minicpu_interconnect.sv",
+      "rtl/advanced/rr_arbiter.sv"
+    ],
+    "nodes": [
+      "Masters",
+      "Arbiter",
+      "Address decoder",
+      "Target"
+    ]
+  },
+  {
+    "id": "R06",
+    "slug": "R06_alu_regfile",
+    "title": "ALU 与 Register File",
+    "summary": "把 RV32I 数据通路拆成 ALU、立即数生成和寄存器文件。",
+    "sources": [
+      "rtl/core/rv32_alu.sv",
+      "rtl/core/rv32_regfile.sv",
+      "rtl/core/rv32_immgen.sv"
+    ],
+    "nodes": [
+      "Instruction fields",
+      "Regfile",
+      "ALU",
+      "Writeback"
+    ]
+  },
+  {
+    "id": "R07",
+    "slug": "R07_fetch_decode_execute",
+    "title": "Fetch / Decode / Execute",
+    "summary": "跟踪多周期核心如何从取指进入译码、执行和退休。",
+    "sources": [
+      "rtl/core/rv32_core.sv"
+    ],
+    "nodes": [
+      "PC",
+      "Fetch",
+      "Decode/Execute",
+      "Retire"
+    ]
+  },
+  {
+    "id": "R08",
+    "slug": "R08_control_memory",
+    "title": "Branch / Jump / Load / Store",
+    "summary": "观察控制流和存储访问如何共同改变 next PC 与总线事务。",
+    "sources": [
+      "rtl/core/rv32_core.sv",
+      "rtl/bus/minicpu_interconnect.sv"
+    ],
+    "nodes": [
+      "Decode",
+      "ALU/address",
+      "Bus transaction",
+      "Next PC"
+    ]
+  },
+  {
+    "id": "R09",
+    "slug": "R09_trap_interrupt",
+    "title": "CSR / Trap / Interrupt",
+    "summary": "在 RTL 中建立 mepc/mcause/mtvec 与 mret 的异常控制路径。",
+    "sources": [
+      "rtl/core/rv32_core.sv",
+      "rtl/peripherals/machine_timer.sv",
+      "rtl/peripherals/interrupt_controller.sv"
+    ],
+    "nodes": [
+      "IRQ source",
+      "CSR gate",
+      "Trap entry",
+      "MRET"
+    ]
+  },
+  {
+    "id": "R10",
+    "slug": "R10_peripherals",
+    "title": "UART / Timer 外设 RTL",
+    "summary": "把 UART 与 machine timer 作为独立 MMIO target 接入 SoC。",
+    "sources": [
+      "rtl/peripherals/uart.sv",
+      "rtl/peripherals/machine_timer.sv",
+      "rtl/soc/minimcu_soc.sv"
+    ],
+    "nodes": [
+      "CPU MMIO",
+      "Interconnect",
+      "UART/Timer",
+      "External signal"
+    ]
+  },
+  {
+    "id": "R11",
+    "slug": "R11_differential",
+    "title": "C++ ↔ RTL Differential 接口",
+    "summary": "利用 retire stream 建立 C++ golden model 与 RTL DUT 的逐退休比较接口。",
+    "sources": [
+      "rtl/soc/minimcu_soc.sv",
+      "rtl/tools/run_rtl_tests.py"
+    ],
+    "nodes": [
+      "C++ reference",
+      "Program",
+      "RTL retire stream",
+      "Comparator"
+    ]
+  },
+  {
+    "id": "R12",
+    "slug": "R12_fpga",
+    "title": "FPGA SoC Bring-up",
+    "summary": "把 SoC 包装成板级 top，连接 reset、switch、LED 与 UART。",
+    "sources": [
+      "rtl/fpga/minimcu_fpga_top.sv",
+      "rtl/soc/minimcu_soc.sv"
+    ],
+    "nodes": [
+      "Board clock/reset",
+      "MiniMCU SoC",
+      "GPIO/UART",
+      "FPGA pins"
+    ]
+  }
+]

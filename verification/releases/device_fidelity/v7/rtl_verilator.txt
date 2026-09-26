@@ -1,0 +1,37 @@
+Verilator 5.038 Device Fidelity V7 RTL verification
+
+Internal ctest changing into directory: /mnt/data/build-v7-full
+Test project /mnt/data/build-v7-full
+    Start 6: rtl_simulation_tb_alu
+1/1 Test #6: rtl_simulation_tb_alu ............   Passed    1.04 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   1.05 sec
+
+Internal ctest changing into directory: /mnt/data/build-v7-full
+Test project /mnt/data/build-v7-full
+    Start 7: rtl_simulation_tb_minimcu_soc
+1/1 Test #7: rtl_simulation_tb_minimcu_soc ....   Passed    0.90 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.91 sec
+
+Internal ctest changing into directory: /mnt/data/build-v7-full
+Test project /mnt/data/build-v7-full
+    Start 8: rtl_simulation_tb_baremetal
+1/1 Test #8: rtl_simulation_tb_baremetal ......   Passed    1.21 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   1.21 sec
+
+Internal ctest changing into directory: /mnt/data/build-v7-full
+Test project /mnt/data/build-v7-full
+    Start 9: rtl_simulation_tb_interrupt
+1/1 Test #9: rtl_simulation_tb_interrupt ......   Passed    3.76 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   3.77 sec

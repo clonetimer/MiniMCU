@@ -1,0 +1,147 @@
+[  3%] Building CXX object CMakeFiles/minisoc.dir/tools/minisoc_main.cpp.o
+[  3%] Building CXX object CMakeFiles/minicpu_lessons.dir/tests/lessons.cpp.o
+[  4%] Building CXX object CMakeFiles/minicpu_demos.dir/demos/demo.cpp.o
+[  4%] Building CXX object 46_virtual_chips/CMakeFiles/virtual_chips_test.dir/test.cpp.o
+[  5%] Linking CXX executable bin/minisoc
+[  5%] Built target minisoc
+[  6%] Linking CXX executable ../bin/virtual_chips_test
+[  6%] Built target virtual_chips_test
+[  7%] Linking CXX static library libminicpu_demos.a
+[  7%] Built target minicpu_demos
+[  8%] Building CXX object 02_ram_rw32/CMakeFiles/stage02.dir/main.cpp.o
+[  9%] Building CXX object 01_gpio_rw32/CMakeFiles/stage01.dir/main.cpp.o
+[ 10%] Building CXX object 03_bus_rw/CMakeFiles/stage03.dir/main.cpp.o
+[ 11%] Linking CXX executable ../bin/01_gpio_rw32
+[ 12%] Linking CXX executable ../bin/02_ram_rw32
+[ 13%] Linking CXX executable ../bin/03_bus_rw
+[ 13%] Built target stage01
+[ 13%] Built target stage02
+[ 13%] Built target stage03
+[ 14%] Building CXX object 04_rom_rw/CMakeFiles/stage04.dir/main.cpp.o
+[ 15%] Building CXX object 05_cpu_fetch/CMakeFiles/stage05.dir/main.cpp.o
+[ 16%] Building CXX object 06_cpu_addi/CMakeFiles/stage06.dir/main.cpp.o
+[ 17%] Linking CXX executable ../bin/05_cpu_fetch
+[ 18%] Linking CXX executable ../bin/04_rom_rw
+[ 19%] Linking CXX executable ../bin/06_cpu_addi
+[ 19%] Built target stage04
+[ 19%] Built target stage05
+[ 21%] Building CXX object 07_cpu_decode_refactor/CMakeFiles/stage07.dir/main.cpp.o
+[ 21%] Building CXX object 08_cpu_op_imm/CMakeFiles/stage08.dir/main.cpp.o
+[ 21%] Built target stage06
+[ 22%] Linking CXX executable ../bin/08_cpu_op_imm
+[ 23%] Linking CXX executable ../bin/07_cpu_decode_refactor
+[ 24%] Building CXX object 09_cpu_op/CMakeFiles/stage09.dir/main.cpp.o
+[ 25%] Linking CXX executable ../bin/09_cpu_op
+[ 25%] Built target stage08
+[ 25%] Built target stage07
+[ 26%] Building CXX object 10_cpu_lui_auipc/CMakeFiles/stage10.dir/main.cpp.o
+[ 26%] Built target stage09
+[ 27%] Building CXX object 11_cpu_load/CMakeFiles/stage11.dir/main.cpp.o
+[ 28%] Linking CXX executable ../bin/10_cpu_lui_auipc
+[ 29%] Building CXX object 12_cpu_store/CMakeFiles/stage12.dir/main.cpp.o
+[ 30%] Linking CXX executable ../bin/11_cpu_load
+[ 31%] Linking CXX executable ../bin/12_cpu_store
+[ 31%] Built target stage10
+[ 32%] Building CXX object 13_cpu_branch/CMakeFiles/stage13.dir/main.cpp.o
+[ 32%] Built target stage11
+[ 32%] Built target stage12
+[ 33%] Building CXX object 14_cpu_jump/CMakeFiles/stage14.dir/main.cpp.o
+[ 34%] Linking CXX executable ../bin/13_cpu_branch
+[ 35%] Building CXX object 15_cpu_rv32i_system/CMakeFiles/stage15.dir/main.cpp.o
+[ 36%] Linking CXX executable ../bin/14_cpu_jump
+[ 37%] Linking CXX executable ../bin/15_cpu_rv32i_system
+[ 37%] Built target stage13
+[ 38%] Building CXX object 16_cpu_rv32i_complete/CMakeFiles/stage16.dir/main.cpp.o
+[ 38%] Built target stage14
+[ 39%] Linking CXX executable ../bin/16_cpu_rv32i_complete
+[ 39%] Built target stage15
+[ 40%] Building CXX object 17_elf_loader/CMakeFiles/stage17.dir/main.cpp.o
+[ 41%] Building CXX object 18_baremetal_c/CMakeFiles/stage18.dir/main.cpp.o
+[ 42%] Linking CXX executable ../bin/18_baremetal_c
+[ 43%] Linking CXX executable ../bin/17_elf_loader
+[ 43%] Built target stage16
+[ 44%] Building CXX object 19_cpu_mmio_gpio/CMakeFiles/stage19.dir/main.cpp.o
+[ 44%] Built target stage17
+[ 44%] Built target stage18
+[ 45%] Linking CXX executable ../bin/19_cpu_mmio_gpio
+[ 46%] Building CXX object 20_event_scheduler/CMakeFiles/stage20.dir/main.cpp.o
+[ 47%] Building CXX object 21_clock_reset/CMakeFiles/stage21.dir/main.cpp.o
+[ 48%] Linking CXX executable ../bin/20_event_scheduler
+[ 50%] Linking CXX executable ../bin/21_clock_reset
+[ 50%] Built target stage19
+[ 51%] Building CXX object 22_zicsr/CMakeFiles/stage22.dir/main.cpp.o
+[ 51%] Built target stage20
+[ 51%] Built target stage21
+[ 52%] Building CXX object 23_exception_trap/CMakeFiles/stage23.dir/main.cpp.o
+[ 53%] Linking CXX executable ../bin/22_zicsr
+[ 54%] Building CXX object 24_machine_timer/CMakeFiles/stage24.dir/main.cpp.o
+[ 55%] Linking CXX executable ../bin/23_exception_trap
+[ 56%] Linking CXX executable ../bin/24_machine_timer
+[ 56%] Built target stage22
+[ 56%] Built target stage23
+[ 57%] Building CXX object 25_interrupt/CMakeFiles/stage25.dir/main.cpp.o
+[ 57%] Built target stage24
+[ 58%] Building CXX object 26_interrupt_controller/CMakeFiles/stage26.dir/main.cpp.o
+[ 59%] Linking CXX executable ../bin/25_interrupt
+[ 60%] Building CXX object 27_uart/CMakeFiles/stage27.dir/main.cpp.o
+[ 61%] Linking CXX executable ../bin/26_interrupt_controller
+[ 62%] Linking CXX executable ../bin/27_uart
+[ 63%] Linking CXX static library libminicpu_lessons.a
+[ 63%] Built target stage25
+[ 64%] Building CXX object 28_uart_terminal/CMakeFiles/stage28.dir/main.cpp.o
+[ 64%] Built target stage26
+[ 64%] Built target minicpu_lessons
+[ 65%] Linking CXX executable ../bin/28_uart_terminal
+[ 66%] Built target stage27
+[ 66%] Building CXX object 30_spi_bus/CMakeFiles/stage30.dir/main.cpp.o
+[ 67%] Building CXX object 29_spi_controller/CMakeFiles/stage29.dir/main.cpp.o
+[ 68%] Building CXX object 31_spi_flash/CMakeFiles/stage31.dir/main.cpp.o
+[ 70%] Linking CXX executable ../bin/30_spi_bus
+[ 70%] Linking CXX executable ../bin/29_spi_controller
+[ 71%] Linking CXX executable ../bin/31_spi_flash
+[ 71%] Built target stage28
+[ 72%] Building CXX object 32_i2c_controller/CMakeFiles/stage32.dir/main.cpp.o
+[ 72%] Built target stage30
+[ 72%] Built target stage29
+[ 72%] Built target stage31
+[ 73%] Linking CXX executable ../bin/32_i2c_controller
+[ 74%] Building CXX object 33_i2c_bus/CMakeFiles/stage33.dir/main.cpp.o
+[ 75%] Building CXX object 34_i2c_sensor/CMakeFiles/stage34.dir/main.cpp.o
+[ 76%] Building CXX object 35_gpio_interrupt/CMakeFiles/stage35.dir/main.cpp.o
+[ 77%] Linking CXX executable ../bin/33_i2c_bus
+[ 78%] Linking CXX executable ../bin/34_i2c_sensor
+[ 79%] Linking CXX executable ../bin/35_gpio_interrupt
+[ 79%] Built target stage32
+[ 80%] Building CXX object 36_general_timer/CMakeFiles/stage36.dir/main.cpp.o
+[ 81%] Linking CXX executable ../bin/36_general_timer
+[ 81%] Built target stage33
+[ 81%] Built target stage34
+[ 81%] Built target stage35
+[ 82%] Building CXX object 37_freertos/CMakeFiles/stage37.dir/main.cpp.o
+[ 83%] Building CXX object 39_dma_peripheral/CMakeFiles/stage39.dir/main.cpp.o
+[ 84%] Building CXX object 38_dma_mem2mem/CMakeFiles/stage38.dir/main.cpp.o
+[ 85%] Linking CXX executable ../bin/37_freertos
+[ 86%] Linking CXX executable ../bin/39_dma_peripheral
+[ 87%] Linking CXX executable ../bin/38_dma_mem2mem
+[ 87%] Built target stage36
+[ 88%] Building CXX object 40_spi_imu/CMakeFiles/stage40.dir/main.cpp.o
+[ 88%] Built target stage37
+[ 89%] Linking CXX executable ../bin/40_spi_imu
+[ 89%] Built target stage38
+[ 89%] Built target stage39
+[ 90%] Building CXX object 41_i2c_eeprom/CMakeFiles/stage41.dir/main.cpp.o
+[ 91%] Building CXX object 46_virtual_chips/CMakeFiles/stage46.dir/main.cpp.o
+[ 92%] Building CXX object 42_adc/CMakeFiles/stage42.dir/main.cpp.o
+[ 93%] Linking CXX executable ../bin/41_i2c_eeprom
+[ 94%] Linking CXX executable ../bin/46_virtual_chips
+[ 95%] Linking CXX executable ../bin/42_adc
+[ 95%] Built target stage40
+[ 96%] Building CXX object CMakeFiles/minicpu_stage_test.dir/tests/stage_test_main.cpp.o
+[ 96%] Built target stage41
+[ 96%] Built target stage46
+[ 96%] Built target stage42
+[ 97%] Building CXX object CMakeFiles/regressions.dir/tests/regressions.cpp.o
+[ 98%] Linking CXX executable bin/minicpu_stage_test
+[ 98%] Built target minicpu_stage_test
+[100%] Linking CXX executable bin/regressions
+[100%] Built target regressions

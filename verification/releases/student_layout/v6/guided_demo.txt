@@ -1,0 +1,22 @@
+MiniMCU Guided Demo V2 verification
+
+Static validation:
+GUIDED_DEMO_VALIDATE PASS
+main missions: 5
+optional side quests: 2
+external resources: 0
+unique ids: 69
+
+Headless Chromium interaction flow:
+BROWSER_FLOW PASS
+main mission 01 -> 05: PASS
+Side Quest A (Scheduler / simulated time): PASS
+Side Quest B (IRQ / Trap): PASS
+JavaScript page errors: 0
+390 px mobile horizontal overflow: PASS
+
+Side Quest A verified sequence:
+START CONVERSION -> early READ BUSY/NACK -> +5 ms x3 -> event fires at simulated t=15 ms -> latched sample -> scheduler checkpoint PASS
+
+Side Quest B verified sequence:
+button event -> edge -> pending -> IRQ -> trap -> ISR clear -> mret -> pending-vs-ISR checkpoint PASS

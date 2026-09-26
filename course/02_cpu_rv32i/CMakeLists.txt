@@ -1,0 +1,13 @@
+# Chapters in this learning phase.
+add_subdirectory(05_cpu_fetch)
+add_subdirectory(06_cpu_addi)
+add_subdirectory(07_cpu_decode_refactor)
+add_subdirectory(08_cpu_op_imm)
+add_subdirectory(09_cpu_op)
+add_subdirectory(10_cpu_lui_auipc)
+add_subdirectory(11_cpu_load)
+add_subdirectory(12_cpu_store)
+add_subdirectory(13_cpu_branch)
+add_subdirectory(14_cpu_jump)
+add_subdirectory(15_cpu_rv32i_system)
+add_subdirectory(16_cpu_rv32i_complete)

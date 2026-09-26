@@ -1,0 +1,2 @@
+misses=1 hits=11 writebacks=1
+[PASS] F02 direct-mapped cache

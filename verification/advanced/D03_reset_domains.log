@@ -1,0 +1,4 @@
+software reset: RAM+retention preserved
+brownout cold reset: RAM+retention cleared
+reset_count=2
+[PASS] D03 reset domains

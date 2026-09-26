@@ -1,0 +1,16 @@
+# R04 — Ready / Valid 与 Wait State
+
+把功能访问扩展为带等待周期的硬件握手。
+
+## 源码入口
+
+- `rtl/advanced/wait_state_target.sv`
+
+## 动画数据流
+
+`Request valid → Latch request → Wait counter → Response ready`
+
+## 验证
+
+- `python3 rtl/tools/series_check.py`：课程源文件、模块与映射结构检查。
+- `python3 rtl/tools/run_rtl_tests.py`：检测到 Icarus/Verilator 后执行真实 HDL testbench；无模拟器时返回 77（SKIP）。

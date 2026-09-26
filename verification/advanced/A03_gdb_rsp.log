@@ -1,0 +1,5 @@
+$Z0,4,4 -> OK
+$c -> S05
+$p1 -> 05000000
+packet=$S05#b8
+[PASS] A03 GDB RSP subset

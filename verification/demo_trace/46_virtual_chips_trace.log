@@ -1,0 +1,42 @@
+
+=== MiniMCU Stage 46 : Virtual Chips / Actuators ===
+trace: enabled
+
+Environment: T=30.25 C RH=72.5% P=98750 Pa AIN2=1.024 V
+
+  I2C START 0x44 W
+    WRITE 0x24
+    WRITE 0x00
+  I2C STOP
+  I2C START 0x44 R
+    READ  0x6E ACK
+    READ  0x14 ACK
+    READ  0x3E ACK
+    READ  0xB9 ACK
+    READ  0x99 ACK
+    READ  0x62 NACK
+  I2C STOP
+SHT31 : T=30.2499 C RH=72.5002 %
+BME280: chip_id=0x60
+  I2C START 0x48 W
+    WRITE 0x01
+    WRITE 0xE5
+    WRITE 0x83
+  I2C STOP
+  I2C START 0x48 W
+    WRITE 0x00
+  I2C STOP
+  I2C START 0x48 R
+    READ  0x40 ACK
+    READ  0x00 NACK
+  I2C STOP
+ADS1115: conversion=16384
+ICM-42688 WHO_AM_I=  SPI CS = 5
+  SPI TX 0xF5 -> RX 0xFF  @ 23008000 ns
+  SPI TX 0xFF -> RX 0x47  @ 23016000 ns
+  SPI CS = -1
+0x47
+Available models: SHT31, BME280, ADS1115, PCA9685, MCP23017, SSD1306,
+                 MAX31855, MCP3008, ICM-42688, SG90, DRV8833/DC motor, 28BYJ-48.
+
+[DEMO DONE] stage 46

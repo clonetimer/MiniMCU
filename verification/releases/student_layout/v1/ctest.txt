@@ -1,0 +1,15 @@
+Student Layout V1 root-course regression
+========================================
+Configuration: Release, optional Advanced/Implementation/FPGA-DSP/RTL checks disabled.
+Executed focused main-course suite after building shared stage test + Stage 46 tests.
+
+Result: 45 / 45 PASS, 0 FAIL
+Coverage in this run:
+- repo_hygiene
+- student_layout
+- stages 01..36
+- stages 38..42
+- 46_virtual_chips
+- 46_fault_injection
+
+Stage 37 requires optional real FreeRTOS integration; 43..45 require optional SystemC/TLM.

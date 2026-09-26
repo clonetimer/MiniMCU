@@ -1,0 +1,16 @@
+
+=== MiniMCU Stage 01 : GPIO RW32 ===
+
+Reset registers:
+  INPUT=0x00000000 OUTPUT=0x00000000 DIR=0x00000000
+
+DIR    <- 0x00000003   pins 0..1 become outputs
+OUTPUT <- 0x00000001   pin0=1 pin1=0
+SET    <- 0x00000002   pin1=1
+CLEAR  <- 0x00000001   pin0=0
+external input mask=0x0C value=0x04
+
+Final:
+  INPUT/PINS=0x00000006 OUTPUT=0x00000002 DIR=0x00000003
+
+[DEMO DONE] stage 01

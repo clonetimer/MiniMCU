@@ -1,0 +1,4 @@
+[PASS] RTL structural check: 18 files, 17 modules; real HDL compiler still required
+[PASS] RTL named-port consistency: 21 modules checked
+[PASS] RTL Series source map: 12 lessons, 18 design files, 17 modules
+[INFO] This is a structural/source-map check, not HDL compilation.

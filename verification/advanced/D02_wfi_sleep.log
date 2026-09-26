@@ -1,0 +1,2 @@
+WFI pc=0x18 slept=9860ns wake=MTIP trap_pc=0x40
+[PASS] D02 WFI low power

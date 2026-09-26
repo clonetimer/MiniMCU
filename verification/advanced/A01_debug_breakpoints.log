@@ -1,0 +1,3 @@
+stop=breakpoint pc=0x8 x2=3
+single-step -> x3=6 pc=0xc
+[PASS] A01 debug breakpoints

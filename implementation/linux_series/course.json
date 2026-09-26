@@ -1,0 +1,229 @@
+[
+  {
+    "id": "L01",
+    "slug": "L01_kernel_module",
+    "title": "Kernel Module 生命周期",
+    "summary": "理解 module_init/module_exit 与内核模块装卸边界",
+    "sources": [
+      "linux_drivers/src/l01_hello.c"
+    ],
+    "nodes": [
+      "insmod",
+      "module_init",
+      "kernel log",
+      "rmmod"
+    ]
+  },
+  {
+    "id": "L02",
+    "slug": "L02_character_device",
+    "title": "Character Device",
+    "summary": "用 miscdevice 建立 /dev 接口和 read/write 数据路径",
+    "sources": [
+      "linux_drivers/src/l02_chardev.c"
+    ],
+    "nodes": [
+      "Userspace",
+      "VFS",
+      "file_operations",
+      "Driver state"
+    ]
+  },
+  {
+    "id": "L03",
+    "slug": "L03_platform_driver",
+    "title": "Platform Device / Driver",
+    "summary": "理解 Device Tree、platform_device 与 probe 的匹配关系",
+    "sources": [
+      "linux_drivers/src/l03_platform.c"
+    ],
+    "nodes": [
+      "Device Tree",
+      "OF match",
+      "platform bus",
+      "probe"
+    ]
+  },
+  {
+    "id": "L04",
+    "slug": "L04_mmio",
+    "title": "MMIO / ioremap / readl / writel",
+    "summary": "把 MiniMCU 寄存器映射成 Linux 驱动可访问的 MMIO",
+    "sources": [
+      "linux_drivers/src/l04_mmio.c",
+      "linux_drivers/include/minimcu_regs.h"
+    ],
+    "nodes": [
+      "reg resource",
+      "ioremap",
+      "readl/writel",
+      "Device register"
+    ]
+  },
+  {
+    "id": "L05",
+    "slug": "L05_gpiochip",
+    "title": "GPIO Subsystem",
+    "summary": "把 MiniMCU GPIO 接入 Linux gpio_chip 框架",
+    "sources": [
+      "linux_drivers/src/l05_gpiochip.c"
+    ],
+    "nodes": [
+      "GPIO consumer",
+      "gpiolib",
+      "gpio_chip callbacks",
+      "MiniMCU GPIO"
+    ]
+  },
+  {
+    "id": "L06",
+    "slug": "L06_ioctl",
+    "title": "ioctl ABI",
+    "summary": "理解用户态控制命令、copy_to/from_user 和 ABI 边界",
+    "sources": [
+      "linux_drivers/src/l06_ioctl.c"
+    ],
+    "nodes": [
+      "Userspace ioctl",
+      "VFS",
+      "unlocked_ioctl",
+      "Kernel state"
+    ]
+  },
+  {
+    "id": "L07",
+    "slug": "L07_irq",
+    "title": "Linux IRQ",
+    "summary": "从 platform_get_irq 到 devm_request_irq 与 ISR",
+    "sources": [
+      "linux_drivers/src/l07_irq.c"
+    ],
+    "nodes": [
+      "Device IRQ",
+      "IRQ core",
+      "ISR",
+      "Driver state"
+    ]
+  },
+  {
+    "id": "L08",
+    "slug": "L08_timer",
+    "title": "Timer Driver",
+    "summary": "结合 MMIO 和 IRQ 驱动 MiniMCU 风格 timer",
+    "sources": [
+      "linux_drivers/src/l08_timer.c"
+    ],
+    "nodes": [
+      "Timer registers",
+      "Comparator",
+      "IRQ",
+      "Driver tick"
+    ]
+  },
+  {
+    "id": "L09",
+    "slug": "L09_uart",
+    "title": "UART MMIO Driver",
+    "summary": "从 write() 进入 UART DATA 寄存器；说明教学接口与 serial_core 的边界",
+    "sources": [
+      "linux_drivers/src/l09_uart.c"
+    ],
+    "nodes": [
+      "Userspace write",
+      "miscdevice",
+      "MMIO DATA",
+      "UART TX"
+    ]
+  },
+  {
+    "id": "L10",
+    "slug": "L10_i2c",
+    "title": "I²C Client Driver",
+    "summary": "用 i2c_driver/SMBus API 驱动一个枚举的传感器客户端",
+    "sources": [
+      "linux_drivers/src/l10_i2c.c"
+    ],
+    "nodes": [
+      "Device Tree",
+      "I2C core",
+      "i2c_driver",
+      "Sensor"
+    ]
+  },
+  {
+    "id": "L11",
+    "slug": "L11_spi",
+    "title": "SPI Protocol Driver",
+    "summary": "用 spi_driver 和 spi_write_then_read 访问 IMU 风格设备",
+    "sources": [
+      "linux_drivers/src/l11_spi.c"
+    ],
+    "nodes": [
+      "Device Tree",
+      "SPI core",
+      "spi_driver",
+      "IMU"
+    ]
+  },
+  {
+    "id": "L12",
+    "slug": "L12_dma",
+    "title": "Linux DMA API",
+    "summary": "区分 CPU virtual address 与 dma_addr_t，并建立 coherent buffer",
+    "sources": [
+      "linux_drivers/src/l12_dma.c"
+    ],
+    "nodes": [
+      "Driver",
+      "dma_alloc_coherent",
+      "DMA address",
+      "Device"
+    ]
+  },
+  {
+    "id": "L13",
+    "slug": "L13_device_tree",
+    "title": "Device Tree / Binding",
+    "summary": "从 DTS reg/interrupts/compatible 到驱动 probe",
+    "sources": [
+      "linux_drivers/dts/minimcu-linux-lab.dts",
+      "linux_drivers/bindings/openai,minimcu-gpio.yaml"
+    ],
+    "nodes": [
+      "DTS",
+      "DTB concept",
+      "OF match",
+      "probe resources"
+    ]
+  },
+  {
+    "id": "L14",
+    "slug": "L14_debugfs",
+    "title": "debugfs Diagnostics",
+    "summary": "用 debugfs 暴露仅用于调试的内核状态，区分稳定 ABI",
+    "sources": [
+      "linux_drivers/src/l14_debugfs.c"
+    ],
+    "nodes": [
+      "Driver state",
+      "debugfs",
+      "VFS",
+      "Developer"
+    ]
+  },
+  {
+    "id": "L15",
+    "slug": "L15_integrated",
+    "title": "综合平台驱动",
+    "summary": "组合 Device Tree、MMIO、IRQ 与 sysfs，形成完整 probe→runtime→remove 生命周期",
+    "sources": [
+      "linux_drivers/src/l15_integrated.c"
+    ],
+    "nodes": [
+      "Device Tree",
+      "probe/resources",
+      "MMIO + IRQ",
+      "sysfs/runtime"
+    ]
+  }
+]

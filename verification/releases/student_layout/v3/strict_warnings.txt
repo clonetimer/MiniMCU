@@ -1,0 +1,24 @@
+Internal ctest changing into directory: /mnt/data/build_v3_strict
+Test project /mnt/data/build_v3_strict
+    Start 49: protocol_track_regression
+1/9 Test #49: protocol_track_regression ........   Passed    0.00 sec
+    Start 50: 47_can_controller
+2/9 Test #50: 47_can_controller ................   Passed    0.00 sec
+    Start 51: 48_can_bus
+3/9 Test #51: 48_can_bus .......................   Passed    0.00 sec
+    Start 52: 49_rs485
+4/9 Test #52: 49_rs485 .........................   Passed    0.00 sec
+    Start 53: 50_modbus_rtu
+5/9 Test #53: 50_modbus_rtu ....................   Passed    0.00 sec
+    Start 54: 51_onewire
+6/9 Test #54: 51_onewire .......................   Passed    0.00 sec
+    Start 55: 52_onewire_device
+7/9 Test #55: 52_onewire_device ................   Passed    0.00 sec
+    Start 56: 53_i2s
+8/9 Test #56: 53_i2s ...........................   Passed    0.00 sec
+    Start 57: 54_i2s_audio
+9/9 Test #57: 54_i2s_audio .....................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 9
+
+Total Test time (real) =   0.02 sec

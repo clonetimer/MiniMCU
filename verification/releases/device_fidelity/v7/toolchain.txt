@@ -1,0 +1,6 @@
+Device Fidelity V7 verification toolchain
+Date: 2026-09-16
+Verilator: Verilator 5.038 2025-07-08 rev v5.038
+Yosys: not installed (fpga_yosys_smoke expected SKIP)
+CMake: cmake version 3.31.6
+C++ compiler: c++ (Debian 14.2.0-19) 14.2.0

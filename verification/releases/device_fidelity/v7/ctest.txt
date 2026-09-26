@@ -1,0 +1,193 @@
+Internal ctest changing into directory: /mnt/data/build-v7-full
+Test project /mnt/data/build-v7-full
+      Start  1: regressions
+ 1/92 Test  #1: regressions ..........................   Passed    0.01 sec
+      Start  2: firmware_timer_interrupt
+ 2/92 Test  #2: firmware_timer_interrupt .............   Passed    0.08 sec
+      Start  3: repo_hygiene
+ 3/92 Test  #3: repo_hygiene .........................   Passed    1.13 sec
+      Start  4: rtl_structure
+ 4/92 Test  #4: rtl_structure ........................   Passed    1.20 sec
+      Start  5: rtl_port_consistency
+ 5/92 Test  #5: rtl_port_consistency .................   Passed    1.17 sec
+      Start  6: rtl_simulation_tb_alu
+ 6/92 Test  #6: rtl_simulation_tb_alu ................   Passed    1.34 sec
+      Start  7: rtl_simulation_tb_minimcu_soc
+ 7/92 Test  #7: rtl_simulation_tb_minimcu_soc ........   Passed    1.28 sec
+      Start  8: rtl_simulation_tb_baremetal
+ 8/92 Test  #8: rtl_simulation_tb_baremetal ..........   Passed    1.55 sec
+      Start  9: rtl_simulation_tb_interrupt
+ 9/92 Test  #9: rtl_simulation_tb_interrupt ..........   Passed    1.11 sec
+      Start 10: rtl_series_source_map
+10/92 Test #10: rtl_series_source_map ................   Passed    0.73 sec
+      Start 11: linux_driver_source_map
+11/92 Test #11: linux_driver_source_map ..............   Passed    0.80 sec
+      Start 12: linux_driver_compile
+12/92 Test #12: linux_driver_compile .................   Passed   14.74 sec
+      Start 13: firmware_peripherals
+13/92 Test #13: firmware_peripherals .................   Passed    0.06 sec
+      Start 14: fpga_series_source_map
+14/92 Test #14: fpga_series_source_map ...............   Passed    1.16 sec
+      Start 15: dsp_series_source_map
+15/92 Test #15: dsp_series_source_map ................   Passed    1.42 sec
+      Start 16: fpga_yosys_smoke
+16/92 Test #16: fpga_yosys_smoke .....................***Skipped   1.31 sec
+      Start 17: 01_gpio_rw32
+17/92 Test #17: 01_gpio_rw32 .........................   Passed    0.01 sec
+      Start 18: 02_ram_rw32
+18/92 Test #18: 02_ram_rw32 ..........................   Passed    0.00 sec
+      Start 19: 03_bus_rw
+19/92 Test #19: 03_bus_rw ............................   Passed    0.00 sec
+      Start 20: 04_rom_rw
+20/92 Test #20: 04_rom_rw ............................   Passed    0.00 sec
+      Start 21: 05_cpu_fetch
+21/92 Test #21: 05_cpu_fetch .........................   Passed    0.01 sec
+      Start 22: 06_cpu_addi
+22/92 Test #22: 06_cpu_addi ..........................   Passed    0.00 sec
+      Start 23: 07_cpu_decode_refactor
+23/92 Test #23: 07_cpu_decode_refactor ...............   Passed    0.00 sec
+      Start 24: 08_cpu_op_imm
+24/92 Test #24: 08_cpu_op_imm ........................   Passed    0.01 sec
+      Start 25: 09_cpu_op
+25/92 Test #25: 09_cpu_op ............................   Passed    0.00 sec
+      Start 26: 10_cpu_lui_auipc
+26/92 Test #26: 10_cpu_lui_auipc .....................   Passed    0.00 sec
+      Start 27: 11_cpu_load
+27/92 Test #27: 11_cpu_load ..........................   Passed    0.00 sec
+      Start 28: 12_cpu_store
+28/92 Test #28: 12_cpu_store .........................   Passed    0.01 sec
+      Start 29: 13_cpu_branch
+29/92 Test #29: 13_cpu_branch ........................   Passed    0.01 sec
+      Start 30: 14_cpu_jump
+30/92 Test #30: 14_cpu_jump ..........................   Passed    0.00 sec
+      Start 31: 15_cpu_rv32i_system
+31/92 Test #31: 15_cpu_rv32i_system ..................   Passed    0.01 sec
+      Start 32: 16_cpu_rv32i_complete
+32/92 Test #32: 16_cpu_rv32i_complete ................   Passed    0.00 sec
+      Start 33: 17_elf_loader
+33/92 Test #33: 17_elf_loader ........................   Passed    0.01 sec
+      Start 34: 18_baremetal_c
+34/92 Test #34: 18_baremetal_c .......................   Passed    0.07 sec
+      Start 35: 19_cpu_mmio_gpio
+35/92 Test #35: 19_cpu_mmio_gpio .....................   Passed    0.10 sec
+      Start 36: 20_event_scheduler
+36/92 Test #36: 20_event_scheduler ...................   Passed    0.00 sec
+      Start 37: 21_clock_reset
+37/92 Test #37: 21_clock_reset .......................   Passed    0.01 sec
+      Start 38: 22_zicsr
+38/92 Test #38: 22_zicsr .............................   Passed    0.00 sec
+      Start 39: 23_exception_trap
+39/92 Test #39: 23_exception_trap ....................   Passed    0.01 sec
+      Start 40: 24_machine_timer
+40/92 Test #40: 24_machine_timer .....................   Passed    0.01 sec
+      Start 41: 25_interrupt
+41/92 Test #41: 25_interrupt .........................   Passed    0.01 sec
+      Start 42: 26_interrupt_controller
+42/92 Test #42: 26_interrupt_controller ..............   Passed    0.00 sec
+      Start 43: 27_uart
+43/92 Test #43: 27_uart ..............................   Passed    0.00 sec
+      Start 44: 28_uart_terminal
+44/92 Test #44: 28_uart_terminal .....................   Passed    0.00 sec
+      Start 45: 29_spi_controller
+45/92 Test #45: 29_spi_controller ....................   Passed    0.00 sec
+      Start 46: 30_spi_bus
+46/92 Test #46: 30_spi_bus ...........................   Passed    0.00 sec
+      Start 47: 31_spi_flash
+47/92 Test #47: 31_spi_flash .........................   Passed    0.00 sec
+      Start 48: 32_i2c_controller
+48/92 Test #48: 32_i2c_controller ....................   Passed    0.00 sec
+      Start 49: 33_i2c_bus
+49/92 Test #49: 33_i2c_bus ...........................   Passed    0.00 sec
+      Start 50: 34_i2c_sensor
+50/92 Test #50: 34_i2c_sensor ........................   Passed    0.00 sec
+      Start 51: 35_gpio_interrupt
+51/92 Test #51: 35_gpio_interrupt ....................   Passed    0.00 sec
+      Start 52: 36_general_timer
+52/92 Test #52: 36_general_timer .....................   Passed    0.00 sec
+      Start 53: 38_dma_mem2mem
+53/92 Test #53: 38_dma_mem2mem .......................   Passed    0.01 sec
+      Start 54: 39_dma_peripheral
+54/92 Test #54: 39_dma_peripheral ....................   Passed    0.00 sec
+      Start 55: 40_spi_imu
+55/92 Test #55: 40_spi_imu ...........................   Passed    0.00 sec
+      Start 56: 41_i2c_eeprom
+56/92 Test #56: 41_i2c_eeprom ........................   Passed    0.00 sec
+      Start 57: 42_adc
+57/92 Test #57: 42_adc ...............................   Passed    0.01 sec
+      Start 58: 46_virtual_chips
+58/92 Test #58: 46_virtual_chips .....................   Passed    0.01 sec
+      Start 59: 46_fault_injection
+59/92 Test #59: 46_fault_injection ...................   Passed    0.01 sec
+      Start 60: advanced_A01_debug_breakpoints
+60/92 Test #60: advanced_A01_debug_breakpoints .......   Passed    0.00 sec
+      Start 61: advanced_A02_debug_watchpoints
+61/92 Test #61: advanced_A02_debug_watchpoints .......   Passed    0.00 sec
+      Start 62: advanced_A03_gdb_rsp
+62/92 Test #62: advanced_A03_gdb_rsp .................   Passed    0.00 sec
+      Start 63: advanced_B01_trace_assertions
+63/92 Test #63: advanced_B01_trace_assertions ........   Passed    0.00 sec
+      Start 64: advanced_B02_differential
+64/92 Test #64: advanced_B02_differential ............   Passed    0.00 sec
+      Start 65: advanced_B03_random_coverage_fault
+65/92 Test #65: advanced_B03_random_coverage_fault ...   Passed    0.01 sec
+      Start 66: advanced_C01_startup_runtime
+66/92 Test #66: advanced_C01_startup_runtime .........   Passed    0.00 sec
+      Start 67: advanced_C02_boot_validation
+67/92 Test #67: advanced_C02_boot_validation .........   Passed    0.00 sec
+      Start 68: advanced_C03_dual_bank_update
+68/92 Test #68: advanced_C03_dual_bank_update ........   Passed    0.00 sec
+      Start 69: advanced_D01_watchdog
+69/92 Test #69: advanced_D01_watchdog ................   Passed    0.00 sec
+      Start 70: advanced_D02_wfi_sleep
+70/92 Test #70: advanced_D02_wfi_sleep ...............   Passed    0.00 sec
+      Start 71: advanced_D03_reset_domains
+71/92 Test #71: advanced_D03_reset_domains ...........   Passed    0.00 sec
+      Start 72: advanced_E01_timed_bus
+72/92 Test #72: advanced_E01_timed_bus ...............   Passed    0.00 sec
+      Start 73: advanced_E02_bus_arbiter
+73/92 Test #73: advanced_E02_bus_arbiter .............   Passed    0.01 sec
+      Start 74: advanced_E03_backpressure_qos
+74/92 Test #74: advanced_E03_backpressure_qos ........   Passed    0.00 sec
+      Start 75: advanced_F01_pmp
+75/92 Test #75: advanced_F01_pmp .....................   Passed    0.00 sec
+      Start 76: advanced_F02_cache
+76/92 Test #76: advanced_F02_cache ...................   Passed    0.00 sec
+      Start 77: advanced_F03_dma_cache_coherency
+77/92 Test #77: advanced_F03_dma_cache_coherency .....   Passed    0.00 sec
+      Start 78: dsp_DSP01_sampling_aliasing
+78/92 Test #78: dsp_DSP01_sampling_aliasing ..........   Passed    0.00 sec
+      Start 79: dsp_DSP02_quantization
+79/92 Test #79: dsp_DSP02_quantization ...............   Passed    0.00 sec
+      Start 80: dsp_DSP03_fixed_point
+80/92 Test #80: dsp_DSP03_fixed_point ................   Passed    0.00 sec
+      Start 81: dsp_DSP04_mac
+81/92 Test #81: dsp_DSP04_mac ........................   Passed    0.01 sec
+      Start 82: dsp_DSP05_fir
+82/92 Test #82: dsp_DSP05_fir ........................   Passed    0.00 sec
+      Start 83: dsp_DSP06_iir
+83/92 Test #83: dsp_DSP06_iir ........................   Passed    0.00 sec
+      Start 84: dsp_DSP07_fft
+84/92 Test #84: dsp_DSP07_fft ........................   Passed    0.00 sec
+      Start 85: dsp_DSP08_spectrum
+85/92 Test #85: dsp_DSP08_spectrum ...................   Passed    0.00 sec
+      Start 86: dsp_DSP09_dds
+86/92 Test #86: dsp_DSP09_dds ........................   Passed    0.00 sec
+      Start 87: dsp_DSP10_cordic
+87/92 Test #87: dsp_DSP10_cordic .....................   Passed    0.01 sec
+      Start 88: dsp_DSP11_multirate
+88/92 Test #88: dsp_DSP11_multirate ..................   Passed    0.00 sec
+      Start 89: dsp_DSP12_dma_streaming
+89/92 Test #89: dsp_DSP12_dma_streaming ..............   Passed    0.00 sec
+      Start 90: dsp_DSP13_rtl_fir_accelerator
+90/92 Test #90: dsp_DSP13_rtl_fir_accelerator ........   Passed    0.00 sec
+      Start 91: dsp_DSP14_cpu_vs_accel
+91/92 Test #91: dsp_DSP14_cpu_vs_accel ...............   Passed    0.00 sec
+      Start 92: dsp_DSP15_realtime_pipeline
+92/92 Test #92: dsp_DSP15_realtime_pipeline ..........   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 92
+
+Total Test time (real) =  29.65 sec
+
+The following tests did not run:
+	 16 - fpga_yosys_smoke (Skipped)

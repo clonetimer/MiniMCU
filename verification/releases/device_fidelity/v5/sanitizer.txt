@@ -1,0 +1,4 @@
+MiniMCU Device Fidelity V5 sanitizer verification
+ASan + UBSan, leak detection enabled
+
+[PASS] virtual chips: SHT31/BME280/ADS1115/PCA9685/MCP23017/SSD1306/EEPROM/SPIFlash/MAX31855/MCP3008/ICM42688 + actuators

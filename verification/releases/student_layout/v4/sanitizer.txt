@@ -1,0 +1,40 @@
+Internal ctest changing into directory: /mnt/data/build_student_v4_san
+Test project /mnt/data/build_student_v4_san
+      Start 49: protocol_track_regression
+ 1/17 Test #49: protocol_track_regression ........   Passed    0.01 sec
+      Start 50: 47_can_controller
+ 2/17 Test #50: 47_can_controller ................   Passed    0.01 sec
+      Start 51: 48_can_bus
+ 3/17 Test #51: 48_can_bus .......................   Passed    0.01 sec
+      Start 52: can_lab_01_error_confinement
+ 4/17 Test #52: can_lab_01_error_confinement .....   Passed    0.01 sec
+      Start 53: can_lab_02_bus_off_recovery
+ 5/17 Test #53: can_lab_02_bus_off_recovery ......   Passed    0.01 sec
+      Start 54: 49_rs485
+ 6/17 Test #54: 49_rs485 .........................   Passed    0.01 sec
+      Start 55: 50_modbus_rtu
+ 7/17 Test #55: 50_modbus_rtu ....................   Passed    0.01 sec
+      Start 56: modbus_lab_01_timeout_retry
+ 8/17 Test #56: modbus_lab_01_timeout_retry ......   Passed    0.01 sec
+      Start 57: modbus_lab_02_crc_noise
+ 9/17 Test #57: modbus_lab_02_crc_noise ..........   Passed    0.01 sec
+      Start 58: 51_onewire
+10/17 Test #58: 51_onewire .......................   Passed    0.01 sec
+      Start 59: 52_onewire_device
+11/17 Test #59: 52_onewire_device ................   Passed    0.01 sec
+      Start 60: onewire_lab_01_search_tree
+12/17 Test #60: onewire_lab_01_search_tree .......   Passed    0.01 sec
+      Start 61: onewire_lab_02_parasite_power
+13/17 Test #61: onewire_lab_02_parasite_power ....   Passed    0.01 sec
+      Start 62: 53_i2s
+14/17 Test #62: 53_i2s ...........................   Passed    0.01 sec
+      Start 63: 54_i2s_audio
+15/17 Test #63: 54_i2s_audio .....................   Passed    0.01 sec
+      Start 64: i2s_lab_01_dma_streaming
+16/17 Test #64: i2s_lab_01_dma_streaming .........   Passed    0.01 sec
+      Start 65: i2s_lab_02_clock_drift
+17/17 Test #65: i2s_lab_02_clock_drift ...........   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 17
+
+Total Test time (real) =   0.13 sec

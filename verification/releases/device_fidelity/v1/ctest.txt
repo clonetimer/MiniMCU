@@ -1,0 +1,104 @@
+Test project /mnt/data/minimcu_work/MiniMCU_FPGA_DSP_V2_source/build_impl
+      Start  1: regressions
+ 1/48 Test  #1: regressions ......................   Passed    0.00 sec
+      Start  2: firmware_timer_interrupt
+ 2/48 Test  #2: firmware_timer_interrupt .........   Passed    0.21 sec
+      Start  3: rtl_structure
+ 3/48 Test  #3: rtl_structure ....................   Passed    0.64 sec
+      Start  4: rtl_port_consistency
+ 4/48 Test  #4: rtl_port_consistency .............   Passed    0.64 sec
+      Start  5: rtl_simulation
+ 5/48 Test  #5: rtl_simulation ...................***Skipped   0.61 sec
+      Start  6: firmware_peripherals
+ 6/48 Test  #6: firmware_peripherals .............   Passed    0.30 sec
+      Start  7: 01_gpio_rw32
+ 7/48 Test  #7: 01_gpio_rw32 .....................   Passed    0.00 sec
+      Start  8: 02_ram_rw32
+ 8/48 Test  #8: 02_ram_rw32 ......................   Passed    0.00 sec
+      Start  9: 03_bus_rw
+ 9/48 Test  #9: 03_bus_rw ........................   Passed    0.00 sec
+      Start 10: 04_rom_rw
+10/48 Test #10: 04_rom_rw ........................   Passed    0.00 sec
+      Start 11: 05_cpu_fetch
+11/48 Test #11: 05_cpu_fetch .....................   Passed    0.00 sec
+      Start 12: 06_cpu_addi
+12/48 Test #12: 06_cpu_addi ......................   Passed    0.00 sec
+      Start 13: 07_cpu_decode_refactor
+13/48 Test #13: 07_cpu_decode_refactor ...........   Passed    0.00 sec
+      Start 14: 08_cpu_op_imm
+14/48 Test #14: 08_cpu_op_imm ....................   Passed    0.00 sec
+      Start 15: 09_cpu_op
+15/48 Test #15: 09_cpu_op ........................   Passed    0.00 sec
+      Start 16: 10_cpu_lui_auipc
+16/48 Test #16: 10_cpu_lui_auipc .................   Passed    0.00 sec
+      Start 17: 11_cpu_load
+17/48 Test #17: 11_cpu_load ......................   Passed    0.00 sec
+      Start 18: 12_cpu_store
+18/48 Test #18: 12_cpu_store .....................   Passed    0.00 sec
+      Start 19: 13_cpu_branch
+19/48 Test #19: 13_cpu_branch ....................   Passed    0.00 sec
+      Start 20: 14_cpu_jump
+20/48 Test #20: 14_cpu_jump ......................   Passed    0.00 sec
+      Start 21: 15_cpu_rv32i_system
+21/48 Test #21: 15_cpu_rv32i_system ..............   Passed    0.00 sec
+      Start 22: 16_cpu_rv32i_complete
+22/48 Test #22: 16_cpu_rv32i_complete ............   Passed    0.01 sec
+      Start 23: 17_elf_loader
+23/48 Test #23: 17_elf_loader ....................   Passed    0.00 sec
+      Start 24: 18_baremetal_c
+24/48 Test #24: 18_baremetal_c ...................   Passed    0.11 sec
+      Start 25: 19_cpu_mmio_gpio
+25/48 Test #25: 19_cpu_mmio_gpio .................   Passed    0.00 sec
+      Start 26: 20_event_scheduler
+26/48 Test #26: 20_event_scheduler ...............   Passed    0.00 sec
+      Start 27: 21_clock_reset
+27/48 Test #27: 21_clock_reset ...................   Passed    0.00 sec
+      Start 28: 22_zicsr
+28/48 Test #28: 22_zicsr .........................   Passed    0.00 sec
+      Start 29: 23_exception_trap
+29/48 Test #29: 23_exception_trap ................   Passed    0.00 sec
+      Start 30: 24_machine_timer
+30/48 Test #30: 24_machine_timer .................   Passed    0.00 sec
+      Start 31: 25_interrupt
+31/48 Test #31: 25_interrupt .....................   Passed    0.00 sec
+      Start 32: 26_interrupt_controller
+32/48 Test #32: 26_interrupt_controller ..........   Passed    0.00 sec
+      Start 33: 27_uart
+33/48 Test #33: 27_uart ..........................   Passed    0.00 sec
+      Start 34: 28_uart_terminal
+34/48 Test #34: 28_uart_terminal .................   Passed    0.00 sec
+      Start 35: 29_spi_controller
+35/48 Test #35: 29_spi_controller ................   Passed    0.00 sec
+      Start 36: 30_spi_bus
+36/48 Test #36: 30_spi_bus .......................   Passed    0.00 sec
+      Start 37: 31_spi_flash
+37/48 Test #37: 31_spi_flash .....................   Passed    0.00 sec
+      Start 38: 32_i2c_controller
+38/48 Test #38: 32_i2c_controller ................   Passed    0.00 sec
+      Start 39: 33_i2c_bus
+39/48 Test #39: 33_i2c_bus .......................   Passed    0.00 sec
+      Start 40: 34_i2c_sensor
+40/48 Test #40: 34_i2c_sensor ....................   Passed    0.00 sec
+      Start 41: 35_gpio_interrupt
+41/48 Test #41: 35_gpio_interrupt ................   Passed    0.00 sec
+      Start 42: 36_general_timer
+42/48 Test #42: 36_general_timer .................   Passed    0.00 sec
+      Start 43: 38_dma_mem2mem
+43/48 Test #43: 38_dma_mem2mem ...................   Passed    0.00 sec
+      Start 44: 39_dma_peripheral
+44/48 Test #44: 39_dma_peripheral ................   Passed    0.00 sec
+      Start 45: 40_spi_imu
+45/48 Test #45: 40_spi_imu .......................   Passed    0.00 sec
+      Start 46: 41_i2c_eeprom
+46/48 Test #46: 41_i2c_eeprom ....................   Passed    0.00 sec
+      Start 47: 42_adc
+47/48 Test #47: 42_adc ...........................   Passed    0.00 sec
+      Start 48: 46_virtual_chips
+48/48 Test #48: 46_virtual_chips .................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 48
+
+Total Test time (real) =   2.63 sec
+
+The following tests did not run:
+	  5 - rtl_simulation (Skipped)

@@ -1,0 +1,155 @@
+{
+  "utc": "2026-09-14T16:07:28.416305+00:00",
+  "build_directory": "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify",
+  "freertos_requested": false,
+  "systemc_requested": false,
+  "sanitizers": false,
+  "rebuild_firmware": true,
+  "commands": [
+    {
+      "name": "firmware-baremetal",
+      "argv": [
+        "/opt/pyvenv/bin/python3",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/tools/build_firmware.py",
+        "--app",
+        "baremetal",
+        "--output",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/firmware/prebuilt/baremetal.elf"
+      ],
+      "log": "verification/latest/firmware-baremetal.log",
+      "returncode": 0
+    },
+    {
+      "name": "firmware-interrupt",
+      "argv": [
+        "/opt/pyvenv/bin/python3",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/tools/build_firmware.py",
+        "--app",
+        "interrupt",
+        "--output",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/firmware/prebuilt/interrupt.elf"
+      ],
+      "log": "verification/latest/firmware-interrupt.log",
+      "returncode": 0
+    },
+    {
+      "name": "firmware-peripherals",
+      "argv": [
+        "/opt/pyvenv/bin/python3",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/tools/build_firmware.py",
+        "--app",
+        "peripherals",
+        "--output",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/firmware/prebuilt/peripherals.elf"
+      ],
+      "log": "verification/latest/firmware-peripherals.log",
+      "returncode": 0
+    },
+    {
+      "name": "configure",
+      "argv": [
+        "cmake",
+        "-S",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable",
+        "-B",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMINICPU_WITH_FREERTOS=OFF",
+        "-DMINICPU_WITH_SYSTEMC=OFF",
+        "-DMINICPU_SANITIZERS=OFF"
+      ],
+      "log": "verification/latest/configure.log",
+      "returncode": 0
+    },
+    {
+      "name": "build",
+      "argv": [
+        "cmake",
+        "--build",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify",
+        "--parallel",
+        "4"
+      ],
+      "log": "verification/latest/build.log",
+      "returncode": 0
+    },
+    {
+      "name": "test-inventory",
+      "argv": [
+        "ctest",
+        "--test-dir",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify",
+        "--show-only=json-v1"
+      ],
+      "log": "verification/latest/test-inventory.log",
+      "returncode": 0
+    },
+    {
+      "name": "ctest",
+      "argv": [
+        "ctest",
+        "--test-dir",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify",
+        "--output-on-failure"
+      ],
+      "log": "verification/latest/ctest.log",
+      "returncode": 0
+    }
+  ],
+  "status": "PASS_FOR_REQUESTED_CONFIGURATION",
+  "registered_tests": [
+    "01_gpio_rw32",
+    "02_ram_rw32",
+    "03_bus_rw",
+    "04_rom_rw",
+    "05_cpu_fetch",
+    "06_cpu_addi",
+    "07_cpu_decode_refactor",
+    "08_cpu_op_imm",
+    "09_cpu_op",
+    "10_cpu_lui_auipc",
+    "11_cpu_load",
+    "12_cpu_store",
+    "13_cpu_branch",
+    "14_cpu_jump",
+    "15_cpu_rv32i_system",
+    "16_cpu_rv32i_complete",
+    "17_elf_loader",
+    "18_baremetal_c",
+    "19_cpu_mmio_gpio",
+    "20_event_scheduler",
+    "21_clock_reset",
+    "22_zicsr",
+    "23_exception_trap",
+    "24_machine_timer",
+    "25_interrupt",
+    "26_interrupt_controller",
+    "27_uart",
+    "28_uart_terminal",
+    "29_spi_controller",
+    "30_spi_bus",
+    "31_spi_flash",
+    "32_i2c_controller",
+    "33_i2c_bus",
+    "34_i2c_sensor",
+    "35_gpio_interrupt",
+    "36_general_timer",
+    "38_dma_mem2mem",
+    "39_dma_peripheral",
+    "40_spi_imu",
+    "41_i2c_eeprom",
+    "42_adc",
+    "46_virtual_chips",
+    "firmware_peripherals",
+    "firmware_timer_interrupt",
+    "regressions",
+    "rtl_port_consistency",
+    "rtl_simulation",
+    "rtl_structure"
+  ],
+  "firmware_sha256": {
+    "interrupt.elf": "a3f462d787232e1a5ac67b27123447b29b8f2adeafcc5eb85527924db4e966e5",
+    "baremetal.elf": "df7d47b394b45e7ade8b2a103ca586359b66ac114dd9e5a331dc84e54e40dde9",
+    "peripherals.elf": "bab3ee0701ad3ce12d89393956f75450be2c56a2aa01bff4c812e8de6bdffc35"
+  }
+}

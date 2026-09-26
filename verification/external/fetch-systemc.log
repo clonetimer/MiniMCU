@@ -1,0 +1,3 @@
+Cloning into '/mnt/data/minicpu45_verify/MiniCPU_45/third_party/.fetch-systemc-pcpf6dop/source'...
+fatal: unable to access 'https://github.com/accellera-official/systemc.git/': Could not resolve host: github.com
+ERROR: Unable to fetch systemc (3.0.1) from https://github.com/accellera-official/systemc.git. This command requires outbound Git access. In an offline sandbox, copy the real upstream source to /mnt/data/minicpu45_verify/MiniCPU_45/third_party/systemc (or use the corresponding CMake path option) and rerun the verification.

@@ -1,0 +1,8 @@
+47_can_controller PASS
+48_can_bus PASS
+49_rs485 PASS
+50_modbus_rtu PASS
+51_onewire PASS
+52_onewire_device PASS
+53_i2s PASS
+54_i2s_audio PASS

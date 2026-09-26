@@ -1,0 +1,8 @@
+PASS course/07_protocols/01_can/labs/lab_01_error_confinement
+PASS course/07_protocols/01_can/labs/lab_02_bus_off_recovery
+PASS course/07_protocols/02_rs485_modbus/labs/lab_01_timeout_retry
+PASS course/07_protocols/02_rs485_modbus/labs/lab_02_crc_noise
+PASS course/07_protocols/03_onewire/labs/lab_01_search_tree
+PASS course/07_protocols/03_onewire/labs/lab_02_parasite_power
+PASS course/07_protocols/04_i2s/labs/lab_01_dma_streaming
+PASS course/07_protocols/04_i2s/labs/lab_02_clock_drift

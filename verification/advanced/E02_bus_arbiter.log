@@ -1,0 +1,3 @@
+grant order: 0 1 2 0 1 2 0 1 0 1
+0=CPU 1=DMA 2=DEBUG
+[PASS] E02 bus arbitration

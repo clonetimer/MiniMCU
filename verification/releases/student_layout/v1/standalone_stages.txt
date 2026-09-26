@@ -1,0 +1,6 @@
+Standalone chapter build checks
+===============================
+course/01_foundations/01_gpio_rw32 : configure/build/CTest PASS
+course/04_peripherals/29_spi_controller : configure/build/CTest PASS
+
+This verifies that moving chapters under course/<phase>/ did not remove the ability to build a single lesson independently.

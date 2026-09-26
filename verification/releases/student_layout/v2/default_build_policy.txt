@@ -1,0 +1,6 @@
+Default root configure without MINICPU_BUILD_PROTOCOL_TRACK:
+- stage47..stage54 targets absent: PASS
+- 47..54 CTest entries absent: PASS
+
+Protocol track is enabled explicitly with:
+  -DMINICPU_BUILD_PROTOCOL_TRACK=ON

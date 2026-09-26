@@ -1,0 +1,2 @@
+repository hygiene: PASS
+student layout: PASS (01-46 core + optional 47-54 protocol track + protocol labs)

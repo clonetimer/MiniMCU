@@ -1,0 +1,41 @@
+
+=== MiniMCU Stage 19 : CPU MMIO GPIO ===
+trace: enabled
+
+ #   PC          INSTRUCTION  DISASSEMBLY / STATE
+--------------------------------------------------------------------------
+ 0   0x00000000  0x400000B7  lui x1,0x40000000
+      BUS READ 32  addr=0x00000000 target=ROM value=0x400000B7
+      -> x1 = 0x40000000
+      -> next_pc = 0x00000004
+ 1   0x00000004  0x00008093  addi x1,x1,0
+      operand:  x1=0x40000000
+      BUS READ 32  addr=0x00000004 target=ROM value=0x00008093
+      -> next_pc = 0x00000008
+ 2   0x00000008  0x00000137  lui x2,0x00000000
+      BUS READ 32  addr=0x00000008 target=ROM value=0x00000137
+      -> next_pc = 0x0000000C
+ 3   0x0000000C  0x00110113  addi x2,x2,1
+      operand:  x2=0x00000000
+      BUS READ 32  addr=0x0000000C target=ROM value=0x00110113
+      -> x2 = 0x00000001
+      -> next_pc = 0x00000010
+ 4   0x00000010  0x0020A423  sw x2,8(x1)
+      operands: x1=0x40000000  x2=0x00000001
+      BUS READ 32  addr=0x00000010 target=ROM value=0x0020A423
+      BUS WRITE32  addr=0x40000008 target=GPIO value=0x00000001
+      -> next_pc = 0x00000014
+ 5   0x00000014  0x0020A223  sw x2,4(x1)
+      operands: x1=0x40000000  x2=0x00000001
+      BUS READ 32  addr=0x00000014 target=ROM value=0x0020A223
+      BUS WRITE32  addr=0x40000004 target=GPIO value=0x00000001
+      -> next_pc = 0x00000018
+ 6   0x00000018  0x0000A183  lw x3,0(x1)
+      operand:  x1=0x40000000
+      BUS READ 32  addr=0x00000018 target=ROM value=0x0000A183
+      BUS READ 32  addr=0x40000000 target=GPIO value=0x00000001
+      -> x3 = 0x00000001
+      -> next_pc = 0x0000001C
+GPIO.DIR=0x00000001 GPIO.OUTPUT=0x00000001 CPU x3(PIN)=0x00000001
+
+[DEMO DONE] stage 19

@@ -1,0 +1,1453 @@
+{
+  "backtraceGraph" : 
+  {
+    "commands" : 
+    [
+      "add_test"
+    ],
+    "files" : 
+    [
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/01_gpio_rw32/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/02_ram_rw32/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/03_bus_rw/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/04_rom_rw/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/05_cpu_fetch/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/06_cpu_addi/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/07_cpu_decode_refactor/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/08_cpu_op_imm/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/09_cpu_op/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/10_cpu_lui_auipc/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/11_cpu_load/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/12_cpu_store/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/13_cpu_branch/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/14_cpu_jump/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/15_cpu_rv32i_system/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/16_cpu_rv32i_complete/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/17_elf_loader/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/18_baremetal_c/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/19_cpu_mmio_gpio/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/20_event_scheduler/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/21_clock_reset/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/22_zicsr/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/23_exception_trap/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/24_machine_timer/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/25_interrupt/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/26_interrupt_controller/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/27_uart/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/28_uart_terminal/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/29_spi_controller/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/30_spi_bus/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/31_spi_flash/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/32_i2c_controller/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/33_i2c_bus/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/34_i2c_sensor/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/35_gpio_interrupt/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/36_general_timer/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/38_dma_mem2mem/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/39_dma_peripheral/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/40_spi_imu/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/41_i2c_eeprom/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/42_adc/CMakeLists.txt",
+      "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/46_virtual_chips/CMakeLists.txt"
+    ],
+    "nodes" : 
+    [
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 55,
+        "parent" : 0
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 56,
+        "parent" : 2
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 69,
+        "parent" : 4
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 70,
+        "parent" : 6
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 71,
+        "parent" : 8
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 80,
+        "parent" : 10
+      },
+      {
+        "file" : 1
+      },
+      {
+        "command" : 0,
+        "file" : 1,
+        "line" : 11,
+        "parent" : 12
+      },
+      {
+        "file" : 2
+      },
+      {
+        "command" : 0,
+        "file" : 2,
+        "line" : 11,
+        "parent" : 14
+      },
+      {
+        "file" : 3
+      },
+      {
+        "command" : 0,
+        "file" : 3,
+        "line" : 11,
+        "parent" : 16
+      },
+      {
+        "file" : 4
+      },
+      {
+        "command" : 0,
+        "file" : 4,
+        "line" : 11,
+        "parent" : 18
+      },
+      {
+        "file" : 5
+      },
+      {
+        "command" : 0,
+        "file" : 5,
+        "line" : 11,
+        "parent" : 20
+      },
+      {
+        "file" : 6
+      },
+      {
+        "command" : 0,
+        "file" : 6,
+        "line" : 11,
+        "parent" : 22
+      },
+      {
+        "file" : 7
+      },
+      {
+        "command" : 0,
+        "file" : 7,
+        "line" : 11,
+        "parent" : 24
+      },
+      {
+        "file" : 8
+      },
+      {
+        "command" : 0,
+        "file" : 8,
+        "line" : 11,
+        "parent" : 26
+      },
+      {
+        "file" : 9
+      },
+      {
+        "command" : 0,
+        "file" : 9,
+        "line" : 11,
+        "parent" : 28
+      },
+      {
+        "file" : 10
+      },
+      {
+        "command" : 0,
+        "file" : 10,
+        "line" : 11,
+        "parent" : 30
+      },
+      {
+        "file" : 11
+      },
+      {
+        "command" : 0,
+        "file" : 11,
+        "line" : 11,
+        "parent" : 32
+      },
+      {
+        "file" : 12
+      },
+      {
+        "command" : 0,
+        "file" : 12,
+        "line" : 11,
+        "parent" : 34
+      },
+      {
+        "file" : 13
+      },
+      {
+        "command" : 0,
+        "file" : 13,
+        "line" : 11,
+        "parent" : 36
+      },
+      {
+        "file" : 14
+      },
+      {
+        "command" : 0,
+        "file" : 14,
+        "line" : 11,
+        "parent" : 38
+      },
+      {
+        "file" : 15
+      },
+      {
+        "command" : 0,
+        "file" : 15,
+        "line" : 11,
+        "parent" : 40
+      },
+      {
+        "file" : 16
+      },
+      {
+        "command" : 0,
+        "file" : 16,
+        "line" : 11,
+        "parent" : 42
+      },
+      {
+        "file" : 17
+      },
+      {
+        "command" : 0,
+        "file" : 17,
+        "line" : 11,
+        "parent" : 44
+      },
+      {
+        "file" : 18
+      },
+      {
+        "command" : 0,
+        "file" : 18,
+        "line" : 11,
+        "parent" : 46
+      },
+      {
+        "file" : 19
+      },
+      {
+        "command" : 0,
+        "file" : 19,
+        "line" : 11,
+        "parent" : 48
+      },
+      {
+        "file" : 20
+      },
+      {
+        "command" : 0,
+        "file" : 20,
+        "line" : 11,
+        "parent" : 50
+      },
+      {
+        "file" : 21
+      },
+      {
+        "command" : 0,
+        "file" : 21,
+        "line" : 11,
+        "parent" : 52
+      },
+      {
+        "file" : 22
+      },
+      {
+        "command" : 0,
+        "file" : 22,
+        "line" : 11,
+        "parent" : 54
+      },
+      {
+        "file" : 23
+      },
+      {
+        "command" : 0,
+        "file" : 23,
+        "line" : 11,
+        "parent" : 56
+      },
+      {
+        "file" : 24
+      },
+      {
+        "command" : 0,
+        "file" : 24,
+        "line" : 11,
+        "parent" : 58
+      },
+      {
+        "file" : 25
+      },
+      {
+        "command" : 0,
+        "file" : 25,
+        "line" : 11,
+        "parent" : 60
+      },
+      {
+        "file" : 26
+      },
+      {
+        "command" : 0,
+        "file" : 26,
+        "line" : 11,
+        "parent" : 62
+      },
+      {
+        "file" : 27
+      },
+      {
+        "command" : 0,
+        "file" : 27,
+        "line" : 11,
+        "parent" : 64
+      },
+      {
+        "file" : 28
+      },
+      {
+        "command" : 0,
+        "file" : 28,
+        "line" : 11,
+        "parent" : 66
+      },
+      {
+        "file" : 29
+      },
+      {
+        "command" : 0,
+        "file" : 29,
+        "line" : 11,
+        "parent" : 68
+      },
+      {
+        "file" : 30
+      },
+      {
+        "command" : 0,
+        "file" : 30,
+        "line" : 11,
+        "parent" : 70
+      },
+      {
+        "file" : 31
+      },
+      {
+        "command" : 0,
+        "file" : 31,
+        "line" : 11,
+        "parent" : 72
+      },
+      {
+        "file" : 32
+      },
+      {
+        "command" : 0,
+        "file" : 32,
+        "line" : 11,
+        "parent" : 74
+      },
+      {
+        "file" : 33
+      },
+      {
+        "command" : 0,
+        "file" : 33,
+        "line" : 11,
+        "parent" : 76
+      },
+      {
+        "file" : 34
+      },
+      {
+        "command" : 0,
+        "file" : 34,
+        "line" : 11,
+        "parent" : 78
+      },
+      {
+        "file" : 35
+      },
+      {
+        "command" : 0,
+        "file" : 35,
+        "line" : 11,
+        "parent" : 80
+      },
+      {
+        "file" : 36
+      },
+      {
+        "command" : 0,
+        "file" : 36,
+        "line" : 11,
+        "parent" : 82
+      },
+      {
+        "file" : 37
+      },
+      {
+        "command" : 0,
+        "file" : 37,
+        "line" : 11,
+        "parent" : 84
+      },
+      {
+        "file" : 38
+      },
+      {
+        "command" : 0,
+        "file" : 38,
+        "line" : 11,
+        "parent" : 86
+      },
+      {
+        "file" : 39
+      },
+      {
+        "command" : 0,
+        "file" : 39,
+        "line" : 11,
+        "parent" : 88
+      },
+      {
+        "file" : 40
+      },
+      {
+        "command" : 0,
+        "file" : 40,
+        "line" : 11,
+        "parent" : 90
+      },
+      {
+        "file" : 41
+      },
+      {
+        "command" : 0,
+        "file" : 41,
+        "line" : 11,
+        "parent" : 92
+      },
+      {
+        "file" : 42
+      },
+      {
+        "command" : 0,
+        "file" : 42,
+        "line" : 13,
+        "parent" : 94
+      }
+    ]
+  },
+  "kind" : "ctestInfo",
+  "tests" : 
+  [
+    {
+      "backtrace" : 1,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/regressions"
+      ],
+      "name" : "regressions",
+      "properties" : 
+      [
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify"
+        }
+      ]
+    },
+    {
+      "backtrace" : 3,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minisoc",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/firmware/prebuilt/interrupt.elf",
+        "5000000",
+        "5 ticks OK"
+      ],
+      "name" : "firmware_timer_interrupt",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify"
+        }
+      ]
+    },
+    {
+      "backtrace" : 5,
+      "command" : 
+      [
+        "/opt/pyvenv/bin/python3",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/rtl/tools/structural_check.py"
+      ],
+      "name" : "rtl_structure",
+      "properties" : 
+      [
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify"
+        }
+      ]
+    },
+    {
+      "backtrace" : 7,
+      "command" : 
+      [
+        "/opt/pyvenv/bin/python3",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/rtl/tools/port_consistency_check.py"
+      ],
+      "name" : "rtl_port_consistency",
+      "properties" : 
+      [
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify"
+        }
+      ]
+    },
+    {
+      "backtrace" : 9,
+      "command" : 
+      [
+        "/opt/pyvenv/bin/python3",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/rtl/tools/run_rtl_tests.py"
+      ],
+      "name" : "rtl_simulation",
+      "properties" : 
+      [
+        {
+          "name" : "SKIP_RETURN_CODE",
+          "value" : 77
+        },
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify"
+        }
+      ]
+    },
+    {
+      "backtrace" : 11,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minisoc",
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/firmware/prebuilt/peripherals.elf",
+        "10000000",
+        "peripheral C: PASS"
+      ],
+      "name" : "firmware_peripherals",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify"
+        }
+      ]
+    },
+    {
+      "backtrace" : 13,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "1"
+      ],
+      "name" : "01_gpio_rw32",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/01_gpio_rw32"
+        }
+      ]
+    },
+    {
+      "backtrace" : 15,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "2"
+      ],
+      "name" : "02_ram_rw32",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/02_ram_rw32"
+        }
+      ]
+    },
+    {
+      "backtrace" : 17,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "3"
+      ],
+      "name" : "03_bus_rw",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/03_bus_rw"
+        }
+      ]
+    },
+    {
+      "backtrace" : 19,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "4"
+      ],
+      "name" : "04_rom_rw",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/04_rom_rw"
+        }
+      ]
+    },
+    {
+      "backtrace" : 21,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "5"
+      ],
+      "name" : "05_cpu_fetch",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/05_cpu_fetch"
+        }
+      ]
+    },
+    {
+      "backtrace" : 23,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "6"
+      ],
+      "name" : "06_cpu_addi",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/06_cpu_addi"
+        }
+      ]
+    },
+    {
+      "backtrace" : 25,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "7"
+      ],
+      "name" : "07_cpu_decode_refactor",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/07_cpu_decode_refactor"
+        }
+      ]
+    },
+    {
+      "backtrace" : 27,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "8"
+      ],
+      "name" : "08_cpu_op_imm",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/08_cpu_op_imm"
+        }
+      ]
+    },
+    {
+      "backtrace" : 29,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "9"
+      ],
+      "name" : "09_cpu_op",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/09_cpu_op"
+        }
+      ]
+    },
+    {
+      "backtrace" : 31,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "10"
+      ],
+      "name" : "10_cpu_lui_auipc",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/10_cpu_lui_auipc"
+        }
+      ]
+    },
+    {
+      "backtrace" : 33,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "11"
+      ],
+      "name" : "11_cpu_load",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/11_cpu_load"
+        }
+      ]
+    },
+    {
+      "backtrace" : 35,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "12"
+      ],
+      "name" : "12_cpu_store",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/12_cpu_store"
+        }
+      ]
+    },
+    {
+      "backtrace" : 37,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "13"
+      ],
+      "name" : "13_cpu_branch",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/13_cpu_branch"
+        }
+      ]
+    },
+    {
+      "backtrace" : 39,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "14"
+      ],
+      "name" : "14_cpu_jump",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/14_cpu_jump"
+        }
+      ]
+    },
+    {
+      "backtrace" : 41,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "15"
+      ],
+      "name" : "15_cpu_rv32i_system",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/15_cpu_rv32i_system"
+        }
+      ]
+    },
+    {
+      "backtrace" : 43,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "16"
+      ],
+      "name" : "16_cpu_rv32i_complete",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/16_cpu_rv32i_complete"
+        }
+      ]
+    },
+    {
+      "backtrace" : 45,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "17"
+      ],
+      "name" : "17_elf_loader",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/17_elf_loader"
+        }
+      ]
+    },
+    {
+      "backtrace" : 47,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "18"
+      ],
+      "name" : "18_baremetal_c",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/18_baremetal_c"
+        }
+      ]
+    },
+    {
+      "backtrace" : 49,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "19"
+      ],
+      "name" : "19_cpu_mmio_gpio",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/19_cpu_mmio_gpio"
+        }
+      ]
+    },
+    {
+      "backtrace" : 51,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "20"
+      ],
+      "name" : "20_event_scheduler",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/20_event_scheduler"
+        }
+      ]
+    },
+    {
+      "backtrace" : 53,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "21"
+      ],
+      "name" : "21_clock_reset",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/21_clock_reset"
+        }
+      ]
+    },
+    {
+      "backtrace" : 55,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "22"
+      ],
+      "name" : "22_zicsr",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/22_zicsr"
+        }
+      ]
+    },
+    {
+      "backtrace" : 57,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "23"
+      ],
+      "name" : "23_exception_trap",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/23_exception_trap"
+        }
+      ]
+    },
+    {
+      "backtrace" : 59,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "24"
+      ],
+      "name" : "24_machine_timer",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/24_machine_timer"
+        }
+      ]
+    },
+    {
+      "backtrace" : 61,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "25"
+      ],
+      "name" : "25_interrupt",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/25_interrupt"
+        }
+      ]
+    },
+    {
+      "backtrace" : 63,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "26"
+      ],
+      "name" : "26_interrupt_controller",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/26_interrupt_controller"
+        }
+      ]
+    },
+    {
+      "backtrace" : 65,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "27"
+      ],
+      "name" : "27_uart",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/27_uart"
+        }
+      ]
+    },
+    {
+      "backtrace" : 67,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "28"
+      ],
+      "name" : "28_uart_terminal",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/28_uart_terminal"
+        }
+      ]
+    },
+    {
+      "backtrace" : 69,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "29"
+      ],
+      "name" : "29_spi_controller",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/29_spi_controller"
+        }
+      ]
+    },
+    {
+      "backtrace" : 71,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "30"
+      ],
+      "name" : "30_spi_bus",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/30_spi_bus"
+        }
+      ]
+    },
+    {
+      "backtrace" : 73,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "31"
+      ],
+      "name" : "31_spi_flash",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/31_spi_flash"
+        }
+      ]
+    },
+    {
+      "backtrace" : 75,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "32"
+      ],
+      "name" : "32_i2c_controller",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/32_i2c_controller"
+        }
+      ]
+    },
+    {
+      "backtrace" : 77,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "33"
+      ],
+      "name" : "33_i2c_bus",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/33_i2c_bus"
+        }
+      ]
+    },
+    {
+      "backtrace" : 79,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "34"
+      ],
+      "name" : "34_i2c_sensor",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/34_i2c_sensor"
+        }
+      ]
+    },
+    {
+      "backtrace" : 81,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "35"
+      ],
+      "name" : "35_gpio_interrupt",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/35_gpio_interrupt"
+        }
+      ]
+    },
+    {
+      "backtrace" : 83,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "36"
+      ],
+      "name" : "36_general_timer",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/36_general_timer"
+        }
+      ]
+    },
+    {
+      "backtrace" : 85,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "38"
+      ],
+      "name" : "38_dma_mem2mem",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/38_dma_mem2mem"
+        }
+      ]
+    },
+    {
+      "backtrace" : 87,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "39"
+      ],
+      "name" : "39_dma_peripheral",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/39_dma_peripheral"
+        }
+      ]
+    },
+    {
+      "backtrace" : 89,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "40"
+      ],
+      "name" : "40_spi_imu",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/40_spi_imu"
+        }
+      ]
+    },
+    {
+      "backtrace" : 91,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "41"
+      ],
+      "name" : "41_i2c_eeprom",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/41_i2c_eeprom"
+        }
+      ]
+    },
+    {
+      "backtrace" : 93,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/minicpu_stage_test",
+        "42"
+      ],
+      "name" : "42_adc",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/42_adc"
+        }
+      ]
+    },
+    {
+      "backtrace" : 95,
+      "command" : 
+      [
+        "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/bin/virtual_chips_test"
+      ],
+      "name" : "46_virtual_chips",
+      "properties" : 
+      [
+        {
+          "name" : "TIMEOUT",
+          "value" : 120.0
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/mnt/data/minimcu_bus_refactor_work/MiniMCU_readable/build-verify/46_virtual_chips"
+        }
+      ]
+    }
+  ],
+  "version" : 
+  {
+    "major" : 1,
+    "minor" : 0
+  }
+}

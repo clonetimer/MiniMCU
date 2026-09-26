@@ -1,0 +1,11 @@
+# Chapters in this learning phase.
+add_subdirectory(17_elf_loader)
+add_subdirectory(18_baremetal_c)
+add_subdirectory(19_cpu_mmio_gpio)
+add_subdirectory(20_event_scheduler)
+add_subdirectory(21_clock_reset)
+add_subdirectory(22_zicsr)
+add_subdirectory(23_exception_trap)
+add_subdirectory(24_machine_timer)
+add_subdirectory(25_interrupt)
+add_subdirectory(26_interrupt_controller)

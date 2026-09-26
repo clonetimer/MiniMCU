@@ -1,0 +1,5 @@
+GUIDED_DEMO_VALIDATE PASS
+ main missions: 5
+ optional side quests: 2
+ external resources: 0
+ unique ids: 69

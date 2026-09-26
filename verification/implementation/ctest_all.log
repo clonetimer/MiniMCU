@@ -1,0 +1,147 @@
+Internal ctest changing into directory: /mnt/data/MiniMCU_Implementation_build_v1
+Test project /mnt/data/MiniMCU_Implementation_build_v1
+      Start  8: linux_driver_compile
+      Start  1: regressions
+ 1/69 Test  #1: regressions ..........................   Passed    0.00 sec
+      Start  2: firmware_timer_interrupt
+ 2/69 Test  #2: firmware_timer_interrupt .............   Passed    0.03 sec
+      Start  3: rtl_structure
+ 3/69 Test  #3: rtl_structure ........................   Passed    0.63 sec
+      Start  4: rtl_port_consistency
+ 4/69 Test  #4: rtl_port_consistency .................   Passed    0.58 sec
+      Start  5: rtl_simulation
+ 5/69 Test  #5: rtl_simulation .......................***Skipped   0.57 sec
+      Start  6: rtl_series_source_map
+ 6/69 Test  #6: rtl_series_source_map ................   Passed    0.57 sec
+      Start  7: linux_driver_source_map
+ 7/69 Test  #7: linux_driver_source_map ..............   Passed    0.53 sec
+      Start  9: firmware_peripherals
+ 8/69 Test  #9: firmware_peripherals .................   Passed    0.05 sec
+      Start 10: 01_gpio_rw32
+ 9/69 Test #10: 01_gpio_rw32 .........................   Passed    0.00 sec
+      Start 11: 02_ram_rw32
+10/69 Test #11: 02_ram_rw32 ..........................   Passed    0.00 sec
+      Start 12: 03_bus_rw
+11/69 Test #12: 03_bus_rw ............................   Passed    0.00 sec
+      Start 13: 04_rom_rw
+12/69 Test #13: 04_rom_rw ............................   Passed    0.00 sec
+      Start 14: 05_cpu_fetch
+13/69 Test #14: 05_cpu_fetch .........................   Passed    0.00 sec
+      Start 15: 06_cpu_addi
+14/69 Test #15: 06_cpu_addi ..........................   Passed    0.00 sec
+      Start 16: 07_cpu_decode_refactor
+15/69 Test #16: 07_cpu_decode_refactor ...............   Passed    0.00 sec
+      Start 17: 08_cpu_op_imm
+16/69 Test #17: 08_cpu_op_imm ........................   Passed    0.00 sec
+      Start 18: 09_cpu_op
+17/69 Test #18: 09_cpu_op ............................   Passed    0.00 sec
+      Start 19: 10_cpu_lui_auipc
+18/69 Test #19: 10_cpu_lui_auipc .....................   Passed    0.00 sec
+      Start 20: 11_cpu_load
+19/69 Test #20: 11_cpu_load ..........................   Passed    0.00 sec
+      Start 21: 12_cpu_store
+20/69 Test #21: 12_cpu_store .........................   Passed    0.00 sec
+      Start 22: 13_cpu_branch
+21/69 Test #22: 13_cpu_branch ........................   Passed    0.00 sec
+      Start 23: 14_cpu_jump
+22/69 Test #23: 14_cpu_jump ..........................   Passed    0.00 sec
+      Start 24: 15_cpu_rv32i_system
+23/69 Test #24: 15_cpu_rv32i_system ..................   Passed    0.00 sec
+      Start 25: 16_cpu_rv32i_complete
+24/69 Test #25: 16_cpu_rv32i_complete ................   Passed    0.00 sec
+      Start 26: 17_elf_loader
+25/69 Test #26: 17_elf_loader ........................   Passed    0.00 sec
+      Start 27: 18_baremetal_c
+26/69 Test #27: 18_baremetal_c .......................   Passed    0.02 sec
+      Start 28: 19_cpu_mmio_gpio
+27/69 Test #28: 19_cpu_mmio_gpio .....................   Passed    0.00 sec
+      Start 29: 20_event_scheduler
+28/69 Test #29: 20_event_scheduler ...................   Passed    0.00 sec
+      Start 30: 21_clock_reset
+29/69 Test #30: 21_clock_reset .......................   Passed    0.00 sec
+      Start 31: 22_zicsr
+30/69 Test #31: 22_zicsr .............................   Passed    0.00 sec
+      Start 32: 23_exception_trap
+31/69 Test #32: 23_exception_trap ....................   Passed    0.00 sec
+      Start 33: 24_machine_timer
+32/69 Test #33: 24_machine_timer .....................   Passed    0.00 sec
+      Start 34: 25_interrupt
+33/69 Test #34: 25_interrupt .........................   Passed    0.00 sec
+      Start 35: 26_interrupt_controller
+34/69 Test #35: 26_interrupt_controller ..............   Passed    0.00 sec
+      Start 36: 27_uart
+35/69 Test #36: 27_uart ..............................   Passed    0.00 sec
+      Start 37: 28_uart_terminal
+36/69 Test #37: 28_uart_terminal .....................   Passed    0.00 sec
+      Start 38: 29_spi_controller
+37/69 Test #38: 29_spi_controller ....................   Passed    0.00 sec
+      Start 39: 30_spi_bus
+38/69 Test #39: 30_spi_bus ...........................   Passed    0.00 sec
+      Start 40: 31_spi_flash
+39/69 Test #40: 31_spi_flash .........................   Passed    0.00 sec
+      Start 41: 32_i2c_controller
+40/69 Test #41: 32_i2c_controller ....................   Passed    0.00 sec
+      Start 42: 33_i2c_bus
+41/69 Test #42: 33_i2c_bus ...........................   Passed    0.00 sec
+      Start 43: 34_i2c_sensor
+42/69 Test #43: 34_i2c_sensor ........................   Passed    0.00 sec
+      Start 44: 35_gpio_interrupt
+43/69 Test #44: 35_gpio_interrupt ....................   Passed    0.00 sec
+      Start 45: 36_general_timer
+44/69 Test #45: 36_general_timer .....................   Passed    0.00 sec
+      Start 46: 38_dma_mem2mem
+45/69 Test #46: 38_dma_mem2mem .......................   Passed    0.00 sec
+      Start 47: 39_dma_peripheral
+46/69 Test #47: 39_dma_peripheral ....................   Passed    0.00 sec
+      Start 48: 40_spi_imu
+47/69 Test #48: 40_spi_imu ...........................   Passed    0.00 sec
+      Start 49: 41_i2c_eeprom
+48/69 Test #49: 41_i2c_eeprom ........................   Passed    0.00 sec
+      Start 50: 42_adc
+49/69 Test #50: 42_adc ...............................   Passed    0.00 sec
+      Start 51: 46_virtual_chips
+50/69 Test #51: 46_virtual_chips .....................   Passed    0.00 sec
+      Start 52: advanced_A01_debug_breakpoints
+51/69 Test #52: advanced_A01_debug_breakpoints .......   Passed    0.00 sec
+      Start 53: advanced_A02_debug_watchpoints
+52/69 Test #53: advanced_A02_debug_watchpoints .......   Passed    0.00 sec
+      Start 54: advanced_A03_gdb_rsp
+53/69 Test #54: advanced_A03_gdb_rsp .................   Passed    0.00 sec
+      Start 55: advanced_B01_trace_assertions
+54/69 Test #55: advanced_B01_trace_assertions ........   Passed    0.00 sec
+      Start 56: advanced_B02_differential
+55/69 Test #56: advanced_B02_differential ............   Passed    0.00 sec
+      Start 57: advanced_B03_random_coverage_fault
+56/69 Test #57: advanced_B03_random_coverage_fault ...   Passed    0.00 sec
+      Start 58: advanced_C01_startup_runtime
+57/69 Test #58: advanced_C01_startup_runtime .........   Passed    0.00 sec
+      Start 59: advanced_C02_boot_validation
+58/69 Test #59: advanced_C02_boot_validation .........   Passed    0.00 sec
+      Start 60: advanced_C03_dual_bank_update
+59/69 Test #60: advanced_C03_dual_bank_update ........   Passed    0.00 sec
+      Start 61: advanced_D01_watchdog
+60/69 Test #61: advanced_D01_watchdog ................   Passed    0.00 sec
+      Start 62: advanced_D02_wfi_sleep
+61/69 Test #62: advanced_D02_wfi_sleep ...............   Passed    0.00 sec
+      Start 63: advanced_D03_reset_domains
+62/69 Test #63: advanced_D03_reset_domains ...........   Passed    0.00 sec
+      Start 64: advanced_E01_timed_bus
+63/69 Test #64: advanced_E01_timed_bus ...............   Passed    0.00 sec
+      Start 65: advanced_E02_bus_arbiter
+64/69 Test #65: advanced_E02_bus_arbiter .............   Passed    0.00 sec
+      Start 66: advanced_E03_backpressure_qos
+65/69 Test #66: advanced_E03_backpressure_qos ........   Passed    0.00 sec
+      Start 67: advanced_F01_pmp
+66/69 Test #67: advanced_F01_pmp .....................   Passed    0.00 sec
+      Start 68: advanced_F02_cache
+67/69 Test #68: advanced_F02_cache ...................   Passed    0.00 sec
+      Start 69: advanced_F03_dma_cache_coherency
+68/69 Test #69: advanced_F03_dma_cache_coherency .....   Passed    0.00 sec
+69/69 Test  #8: linux_driver_compile .................   Passed    5.56 sec
+
+100% tests passed, 0 tests failed out of 69
+
+Total Test time (real) =   5.57 sec
+
+The following tests did not run:
+	  5 - rtl_simulation (Skipped)

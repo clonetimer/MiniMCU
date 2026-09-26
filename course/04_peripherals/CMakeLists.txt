@@ -1,0 +1,11 @@
+# Chapters in this learning phase.
+add_subdirectory(27_uart)
+add_subdirectory(28_uart_terminal)
+add_subdirectory(29_spi_controller)
+add_subdirectory(30_spi_bus)
+add_subdirectory(31_spi_flash)
+add_subdirectory(32_i2c_controller)
+add_subdirectory(33_i2c_bus)
+add_subdirectory(34_i2c_sensor)
+add_subdirectory(35_gpio_interrupt)
+add_subdirectory(36_general_timer)

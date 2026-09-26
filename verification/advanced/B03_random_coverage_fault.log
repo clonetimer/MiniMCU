@@ -1,0 +1,2 @@
+opcode_buckets=2 bus_reads=300 CRC before=0xa11c2e3d after=0x5d94bc31
+[PASS] B03 random coverage and fault injection

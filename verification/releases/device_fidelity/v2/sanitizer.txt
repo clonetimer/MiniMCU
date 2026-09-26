@@ -1,0 +1,15 @@
+Device Fidelity V2 sanitizer verification
+
+Configuration:
+  MINICPU_BUILD_ADVANCED=OFF
+  MINICPU_BUILD_IMPLEMENTATION=OFF
+  MINICPU_BUILD_FPGA_DSP=OFF
+  MINICPU_SANITIZERS=ON
+
+Target:
+  virtual_chips_test
+
+Result:
+  [PASS] virtual chips: SHT31/BME280/ADS1115/PCA9685/MCP23017/SSD1306/MAX31855/MCP3008/ICM42688 + actuators
+
+ASan/UBSan diagnostics: none.

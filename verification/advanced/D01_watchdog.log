@@ -1,0 +1,3 @@
+timeout=1000ns, feed@600ns -> deadline moved
+no second feed -> WATCHDOG RESET
+[PASS] D01 watchdog

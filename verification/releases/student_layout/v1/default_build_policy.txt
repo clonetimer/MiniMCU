@@ -1,0 +1,11 @@
+Default beginner build policy
+=============================
+OFF by default:
+- MINICPU_BUILD_ADVANCED
+- MINICPU_BUILD_IMPLEMENTATION
+- MINICPU_BUILD_FPGA_DSP
+- MINICPU_BUILD_RTL_TESTS
+- MINICPU_WITH_FREERTOS
+- MINICPU_WITH_SYSTEMC
+
+All features remain available through explicit CMake options or standalone extension projects.

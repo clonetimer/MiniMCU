@@ -1,0 +1,2 @@
+seed=0x12345678 instructions=500 result=MATCH
+[PASS] B02 differential testing

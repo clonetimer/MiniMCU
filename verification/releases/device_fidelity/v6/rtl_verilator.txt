@@ -1,0 +1,56 @@
++ /mnt/data/verilator_5038/verilator/bin/verilator --binary --timing -Wall -Wno-fatal --top-module tb_alu --Mdir /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_alu /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/minicpu_pkg.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_alu.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_immgen.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_regfile.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_core.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/bus/minicpu_interconnect.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/memory/simple_rom.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/memory/simple_ram.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/gpio.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/machine_timer.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/uart.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/interrupt_controller.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/sim_exit.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/soc/minimcu_soc.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/tb/tb_alu.sv
+make: Entering directory '/mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_alu'
+make: Nothing to be done for 'default'.
+make: Leaving directory '/mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_alu'
+- V e r i l a t i o n   R e p o r t: Verilator 5.038 2025-07-08 rev v5.038
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.008 s (elab=0.000, cvt=0.000, bld=0.007); cpu 0.001 s on 1 threads; alloced 9.434 MB
++ /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_alu/Vtb_alu
+[PASS] RTL ALU
+- /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/tb/tb_alu.sv:46: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.038 2025-07-08
+- Verilator: $finish at 5ns; walltime 0.000 s; speed 9.737 us/s
+- Verilator: cpu 0.001 s on 1 threads; alloced 33 MB
++ /mnt/data/verilator_5038/verilator/bin/verilator --binary --timing -Wall -Wno-fatal --top-module tb_minimcu_soc --Mdir /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_minimcu_soc /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/minicpu_pkg.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_alu.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_immgen.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_regfile.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_core.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/bus/minicpu_interconnect.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/memory/simple_rom.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/memory/simple_ram.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/gpio.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/machine_timer.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/uart.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/interrupt_controller.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/sim_exit.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/soc/minimcu_soc.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/tb/tb_minimcu_soc.sv
+make: Entering directory '/mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_minimcu_soc'
+make: Nothing to be done for 'default'.
+make: Leaving directory '/mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_minimcu_soc'
+- V e r i l a t i o n   R e p o r t: Verilator 5.038 2025-07-08 rev v5.038
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.008 s (elab=0.000, cvt=0.000, bld=0.007); cpu 0.001 s on 1 threads; alloced 9.434 MB
++ /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_minimcu_soc/Vtb_minimcu_soc
+[PASS] RTL MiniMCU SoC smoke: RV32I ALU/load/store/branch/MMIO/exit
+- /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/tb/tb_minimcu_soc.sv:44: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.038 2025-07-08
+- Verilator: $finish at 720ns; walltime 0.000 s; speed 1.092 ms/s
+- Verilator: cpu 0.001 s on 1 threads; alloced 33 MB
++ /mnt/data/verilator_5038/verilator/bin/verilator --binary --timing -Wall -Wno-fatal --top-module tb_baremetal --Mdir /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_baremetal /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/minicpu_pkg.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_alu.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_immgen.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_regfile.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_core.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/bus/minicpu_interconnect.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/memory/simple_rom.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/memory/simple_ram.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/gpio.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/machine_timer.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/uart.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/interrupt_controller.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/sim_exit.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/soc/minimcu_soc.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/tb/tb_baremetal.sv
+make: Entering directory '/mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_baremetal'
+make: Nothing to be done for 'default'.
+make: Leaving directory '/mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_baremetal'
+- V e r i l a t i o n   R e p o r t: Verilator 5.038 2025-07-08 rev v5.038
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.000, bld=0.006); cpu 0.001 s on 1 threads; alloced 9.434 MB
++ /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_baremetal/Vtb_baremetal
+bare-metal C: PASS (data/bss/stack/calls/GPIO/UART)
+
+[PASS] RTL bare-metal C firmware: code=0 cycles=226540 retired=97078
+- /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/tb/tb_baremetal.sv:51: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.038 2025-07-08
+- Verilator: $finish at 5ms; walltime 0.111 s; speed 40.826 ms/s
+- Verilator: cpu 0.111 s on 1 threads; alloced 33 MB
++ /mnt/data/verilator_5038/verilator/bin/verilator --binary --timing -Wall -Wno-fatal --top-module tb_interrupt --Mdir /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_interrupt /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/minicpu_pkg.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_alu.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_immgen.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_regfile.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/core/rv32_core.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/bus/minicpu_interconnect.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/memory/simple_rom.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/memory/simple_ram.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/gpio.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/machine_timer.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/uart.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/interrupt_controller.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/peripherals/sim_exit.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/soc/minimcu_soc.sv /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/tb/tb_interrupt.sv
+make: Entering directory '/mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_interrupt'
+make: Nothing to be done for 'default'.
+make: Leaving directory '/mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_interrupt'
+- V e r i l a t i o n   R e p o r t: Verilator 5.038 2025-07-08 rev v5.038
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.000, bld=0.007); cpu 0.001 s on 1 threads; alloced 9.434 MB
++ /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/build/obj_tb_interrupt/Vtb_interrupt
+bare-metal timer interrupt: 5 ticks OK
+
+[PASS] RTL timer/interrupt C firmware: code=0 cycles=420415 traps=5
+- /mnt/data/minimcu_v6_work/MiniMCU_FPGA_DSP_V2_source/rtl/tb/tb_interrupt.sv:51: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.038 2025-07-08
+- Verilator: $finish at 8ms; walltime 0.211 s; speed 39.747 ms/s
+- Verilator: cpu 0.212 s on 1 threads; alloced 33 MB

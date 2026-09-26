@@ -1,0 +1,10 @@
+Default configuration:
+  MINICPU_BUILD_PROTOCOL_TRACK=OFF
+  MINICPU_BUILD_PROTOCOL_LABS=OFF
+
+CTest discovery reports 48 tests.
+No stage47-stage54 or protocol-lab test is registered.
+
+Guard check:
+  configuring with MINICPU_BUILD_PROTOCOL_LABS=ON while the protocol track is OFF fails with:
+  MINICPU_BUILD_PROTOCOL_LABS requires MINICPU_BUILD_PROTOCOL_TRACK=ON

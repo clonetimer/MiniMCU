@@ -1,0 +1,7 @@
+System Fidelity extension regression after Student Layout rebase
+===============================================================
+System Fidelity V1: 5 / 5 PASS
+System Fidelity V2: 7 / 7 PASS
+System Fidelity V3: 9 / 9 PASS
+
+The root-isolation verifiers now validate the Student Layout V1 baseline instead of the historical flat V7 path layout. C++ extension behavior code remains unchanged.

@@ -1,0 +1,6 @@
+verilator: not found
+iverilog: not found
+yosys: not found
+nextpnr-ice40: not found
+vivado: not found
+quartus_sh: not found

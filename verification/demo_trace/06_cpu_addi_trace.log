@@ -1,0 +1,23 @@
+
+=== MiniMCU Stage 06 : CPU ADDI ===
+trace: enabled
+
+ #   PC          INSTRUCTION  DISASSEMBLY / STATE
+--------------------------------------------------------------------------
+ 0   0x00000000  0x00100093  addi x1,x0,1
+      operand:  x0=0x00000000
+      BUS READ 32  addr=0x00000000 target=ROM value=0x00100093
+      -> x1 = 0x00000001
+      -> next_pc = 0x00000004
+ 1   0x00000004  0x00508113  addi x2,x1,5
+      operand:  x1=0x00000001
+      BUS READ 32  addr=0x00000004 target=ROM value=0x00508113
+      -> x2 = 0x00000006
+      -> next_pc = 0x00000008
+ 2   0x00000008  0xFFE10193  addi x3,x2,-2
+      operand:  x2=0x00000006
+      BUS READ 32  addr=0x00000008 target=ROM value=0xFFE10193
+      -> x3 = 0x00000004
+      -> next_pc = 0x0000000C
+
+[DEMO DONE] stage 06
